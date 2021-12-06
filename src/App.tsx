@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import styled from "styled-components";
+import List from "./components/List";
 
 function App() {
   const Title = styled.h1`
@@ -18,6 +19,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <Title>Test styled-components</Title>
+        <List />
         <a
           className="App-link"
           href="https://reactjs.org"
