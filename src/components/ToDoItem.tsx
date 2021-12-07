@@ -7,26 +7,43 @@ import { DeleteData } from "../mockFunctions";
 import { SettingsInputSvideoOutlined } from "@mui/icons-material";
 
 export default function ToDoItem(item: any) {
-  const [isDone, setDone] = useState(item.done);
 
+  const [isDone, setDone] = useState(item.done);
+  const dNow = new Date()
+  const d = new Date(item.date)
+
+  let dayNow = dNow.getMonth() * dNow.getDay();
+  let day = d.getMonth() * d.getDay();
+
+  console.log(day - dayNow)
   const Title = styled.h2`
-    color: #23ff11;
+    text-align: left;
+    color: #d44d2f;
+    font-weight:700;
   `;
   const Note = styled.p`
-    color: #1effa3;
+    text-align: left;
+    font-size: 1rem;
+    color: #8a8a8a;
   `;
   const DeadlineDate = styled.p`
-    color: #898989;
+    text-align: left;
+    font-size: 1rem;
+    color: #b3b3b3;
   `;
   const DeadlineTime = styled.p`
-    color: #898989;
+    color: #b3b3b3;
   `;
 
 
   const Div = styled.div`
-    background-color: ${isDone ? '#84b384' : '#616161'};
-    border: 2px solid red;
+    background-color: ${isDone ? '#dedede' : 'white'};
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius  0.375rem;
+    padding-top: 1rem;
+    height:100%
   `;
+
   return (
     <Div>
       <Container>

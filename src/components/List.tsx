@@ -1,6 +1,6 @@
 
 
-import { Button, ButtonGroup, Input } from "@mui/material";
+import { Button, ToggleButtonGroup, Input, ToggleButton } from "@mui/material";
 import styled from "styled-components";
 import ToDoItem from "./ToDoItem";
 import { useFetchGET, FetchPOST, FetchPUT } from "../mockFunctions";
@@ -10,11 +10,10 @@ import * as myConst from '../Constants/fileOfConstants'
 import { useState } from "react";
 import { DeleteData } from "../mockFunctions";
 import st from '@mui/material/styles/styled';
-import { OtherHousesTwoTone } from "@mui/icons-material";
 import { randomBytes } from "crypto";
 
 export default function List() {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const [dataChange, setData] = useState(randomBytes(16));
     const [search, setSearch] = useState('');
     const [filter, setFilter] = useState('');
@@ -28,22 +27,35 @@ export default function List() {
     const onSubmit = (data: any) => {
         data.done = false;
         handlePost(myConst.URL, data)
+        reset();
         console.log(data);
         //window.location.reload();
     }
+
+    //styled components
     const Title = styled.h1`
-      color: #1f4fa7
+    font-size: 1.2em;
+    text-align: center;
+    color: palevioletred;
+    font-weight: 900;
     `;
 
     const RemoveButton = st(Button)`
     color: #c70000;
+    background-color:#e38f8f ;
     `;
 
     const DoneButton = st(Button)`
-    background-color: #24bd24;
+    background-color: lightgreen;
+    `;
+
+    const BackButton = st(Button)`
+    background-color: lightblue;
     `;
 
 
+    // state handlers 
+    //TODO could be inproved using Redux 
     const handleKeyDown = (event: any) => {
         if (event.key === "Enter") {
             handleSearch(event.target.value);
@@ -53,10 +65,13 @@ export default function List() {
         setSearch(searchText);
         setData(randomBytes(16));
     }
-    function handleFilter(filter: string) {
-        setFilter(filter)
-        setData(randomBytes(16))
-    }
+    const handleFilter = (
+        event: React.MouseEvent<HTMLElement>,
+        newAlignment: string | "",
+    ) => {
+        setFilter(newAlignment);
+        setData(randomBytes(16));
+    };
 
     async function handlePost(url: string, data: any) {
         await FetchPOST(url, data)
@@ -75,54 +90,77 @@ export default function List() {
 
 
     return (
-        <div className='h-screen border-4 border-green-400'>
-            <div className='flex text-gray-400 flex-col border-4 border-green-400'>
-                <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                    <Button onClick={() => handleFilter("")}>All</Button>
-                    <Button onClick={() => handleFilter("?filter=true")}>Done</Button>
-                    <Button onClick={() => handleFilter('?filter=false')}>not Done</Button>
-                </ButtonGroup>
-                <Input type='text'
-                    placeholder='Search'
-                    onKeyDown={handleKeyDown}
-                    value={input}
-                    onChange={event => setInput(event.target.value)} />
+        <div className='bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg'>
+            <div className='bg-red-100 rounded-t-xl'>
+                <Title>ToDo Zoznam</Title>
             </div>
-            <div className='h-2/4 border-4 border-green-400 overflow-scroll'>
+            <div className='bg-white flex flex-row text-gray-400  items-center'>
+
+                <ToggleButtonGroup value={filter}
+                    exclusive onChange={handleFilter}
+                    color='primary'
+                    aria-label="filter items">
+                    <ToggleButton value="">All</ToggleButton>
+                    <ToggleButton value="?filter=true">Done</ToggleButton>
+                    <ToggleButton value='?filter=false'>not Done</ToggleButton>
+                </ToggleButtonGroup>
+                <div className='flex-1 w-full'>
+                    {/* for some reason, styled components is refreshing this input after every single character tiped */}
+                    <Input type='search'
+
+                        placeholder='Search'
+                        onKeyDown={handleKeyDown}
+                        value={input}
+                        onChange={event => setInput(event.target.value)} />
+                </div>
+            </div >
+            <div className='bg-gray-200 object-contain px-4 border-green-400 overflow-scroll'>
 
 
-                <Title>Názov</Title>
+
                 {loading && <p>Loading data ...</p>}
                 {items && items.map((item: any) => {
                     return (
-                        <>
-                            <ToDoItem
-                                title={item.title}
-                                note={item.note}
-                                date={item.date}
-                                time={item.time}
-                                done={item.done}
-                                key={item.id} />
-                            {item.done ?
-                                <Button onClick={() => changeDone(myConst.URL, item.id, item, false)}>Back</Button>
-                                : <DoneButton onClick={() => changeDone(myConst.URL, item.id, item, true)}>Hotovo</DoneButton>}
-                            <RemoveButton onClick={() => {
-                                handleDelete(String(myConst.URL + '/' + item.id), item);
-                            }}>Zmazať</RemoveButton>
-                        </>
+                        <div className='flex flex-row bg-white rounded-md my-4 filter drop-shadow-xl'>
+                            <div className='w-full'>
+                                <ToDoItem
+                                    title={item.title}
+                                    note={item.note}
+                                    date={item.date}
+                                    time={item.time}
+                                    done={item.done}
+                                    key={item.id} />
+                            </div>
+                            {/* TODO using redux buttons could be placed inside ToDoItem component */}
+                            <div className='flex flex-col bg-white rounded-md my-4 filter'>
+                                {item.done ?
+                                    <BackButton onClick={() => changeDone(myConst.URL, item.id, item, false)}>Back</BackButton>
+                                    : <DoneButton onClick={() => changeDone(myConst.URL, item.id, item, true)}>Hotovo</DoneButton>}
+                                <RemoveButton onClick={() => {
+                                    handleDelete(String(myConst.URL + '/' + item.id), item);
+                                }}>Zmazať</RemoveButton>
+                            </div>
+                        </div>
                     )
                 })}
             </div>
-            <form className='flex text-black flex-col bg-gray-300' onSubmit={handleSubmit(onSubmit)} >
-                <Input {...register("title", { required: true })} type='text'
-                    placeholder='Title' />
-                <TextareaAutosize
-                    {...register("note")}
-                    placeholder='write notes'
-                    maxRows={3} />
-                <Input  {...register("date")} type='datetime-local' />
-                <Input type='submit' value='Pridať' />
-            </form>
+            <div>
+                <form className='flex text-black rounded-b-xl m-2 flex-col bg-gray-300' onSubmit={handleSubmit(onSubmit)} >
+                    <Input {...register("title", { required: true })}
+                        type='text'
+                        placeholder='Title'
+                    />
+                    <TextareaAutosize
+                        {...register("note")}
+                        placeholder='write notes'
+                        maxRows={3} />
+                    <Input  {...register("date")} type='datetime-local' />
+                    <Input
+                        type='submit'
+                        value='Pridať'
+                        disableUnderline={true} />
+                </form>
+            </div>
         </div >
     )
 }
