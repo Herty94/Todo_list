@@ -10,10 +10,9 @@ export default function ToDoItem(item: any) {
   const dNow = new Date()
   const d = new Date(item.date)
 
-  let dayNow = dNow.getMonth() * dNow.getDay();
-  let day = d.getMonth() * d.getDay();
+  let hourNow = dNow.getHours()
+  let hour = d.getHours()
 
-  console.log(day - dayNow)
   const Title = styled.h2`
     text-align: left;
     color: #d44d2f;
@@ -25,12 +24,9 @@ export default function ToDoItem(item: any) {
     color: #8a8a8a;
   `;
   const DeadlineDate = styled.p`
+    color: ${hour - hourNow > 2 ? 'rgb(' + (hour - hourNow) % 255 + ', 100, 0) ' : '#ff7575'};
     text-align: left;
     font-size: 1rem;
-    color: #b3b3b3;
-  `;
-  const DeadlineTime = styled.p`
-    color: #b3b3b3;
   `;
 
 
@@ -47,8 +43,7 @@ export default function ToDoItem(item: any) {
       <Container>
         <Title>{item.title}</Title>
         <Note>{item.note}</Note>
-        <DeadlineDate>{item.date}</DeadlineDate>
-        <DeadlineTime>{item.time}</DeadlineTime>
+        <DeadlineDate>{item.date.split('T').join('  ')}</DeadlineDate>
       </Container>
     </Div >
   )
