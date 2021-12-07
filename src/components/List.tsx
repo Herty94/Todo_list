@@ -114,7 +114,7 @@ export default function List() {
             onChange={event => setInput(event.target.value)} />
         </div>
       </div >
-      <div className='bg-blue-200 object-contain px-4 border-green-400 overflow-y-scroll'>
+      <div className='bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll'>
 
 
 
