@@ -3,12 +3,12 @@
 import { Button, ToggleButtonGroup, Input, ToggleButton } from "@mui/material";
 import styled from "styled-components";
 import ToDoItem from "./ToDoItem";
-import { useFetchGET, FetchPOST, FetchPUT } from "../mockFunctions";
+import { useFetchGET, FetchPOST, FetchPUT } from "../helpers/mockFunctions";
 import { TextareaAutosize } from "@mui/core";
 import { useForm } from "react-hook-form";
 import * as myConst from '../Constants/fileOfConstants'
 import { useState } from "react";
-import { DeleteData } from "../mockFunctions";
+import { DeleteData } from "../helpers/mockFunctions";
 import st from '@mui/material/styles/styled';
 import { randomBytes } from "crypto";
 
