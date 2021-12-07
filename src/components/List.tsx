@@ -157,10 +157,14 @@ export default function List() {
                         className='text-base'
                         placeholder='write notes'
                         maxRows={3} />
-                    <Input type='datetime-local' {...register("date")} />
+                    <div className="flex flex-row">
+                        <label className='text-base pr-4 text-gray-500'>Deadline: </label>
+                        <Input type='datetime-local' {...register("date")} />
+                    </div>
                     <Input
+                        className='bg-white rounded-b-xl hover:bg-gray-200'
                         type='submit'
-                        value='Pridať'
+                        value='Create ToDo Item'
                         disableUnderline={true} />
                 </form>
             </div>
