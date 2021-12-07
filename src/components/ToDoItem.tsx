@@ -43,7 +43,7 @@ export default function ToDoItem(item: any) {
       <Container>
         <Title>{item.title}</Title>
         <Note>{item.note}</Note>
-        <DeadlineDate>{"ddl: " + item.date.replace('T', " ")}</DeadlineDate>
+        <DeadlineDate>{item.date && ("ddl: " + item.date.replace('T', " "))}</DeadlineDate>
       </Container>
     </Div >
   )
