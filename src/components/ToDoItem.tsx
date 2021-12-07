@@ -1,10 +1,8 @@
 
-import { Box, Button, CardActions, CardContent, Container, Typography } from "@mui/material";
+import { Container } from "@mui/material";
 import styled from "styled-components";
-import st from '@mui/material/styles/styled';
-import { useEffect, useState } from 'react';
-import { DeleteData } from "../mockFunctions";
-import { SettingsInputSvideoOutlined } from "@mui/icons-material";
+import { useState } from 'react';
+
 
 export default function ToDoItem(item: any) {
 

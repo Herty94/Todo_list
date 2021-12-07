@@ -104,7 +104,7 @@ export default function List() {
                     <ToggleButton value="?filter=true">Done</ToggleButton>
                     <ToggleButton value='?filter=false'>not Done</ToggleButton>
                 </ToggleButtonGroup>
-                <div className='flex-1 w-full'>
+                <div className='flex-1 p-2 w-full'>
                     {/* for some reason, styled components is refreshing this input after every single character tiped */}
                     <Input type='search'
 
@@ -114,7 +114,7 @@ export default function List() {
                         onChange={event => setInput(event.target.value)} />
                 </div>
             </div >
-            <div className='bg-gray-200 object-contain px-4 border-green-400 overflow-scroll'>
+            <div className='bg-blue-200 object-contain px-4 border-green-400 overflow-y-scroll'>
 
 
 
@@ -143,6 +143,8 @@ export default function List() {
                         </div>
                     )
                 })}
+
+                <p>Add new ToDo</p>
             </div>
             <div>
                 <form className='flex text-black rounded-b-xl m-2 flex-col bg-gray-300' onSubmit={handleSubmit(onSubmit)} >
@@ -152,9 +154,10 @@ export default function List() {
                     />
                     <TextareaAutosize
                         {...register("note")}
+                        className='text-base'
                         placeholder='write notes'
                         maxRows={3} />
-                    <Input  {...register("date")} type='datetime-local' />
+                    <Input placeholder='Deadline' {...register("date")} type='datetime-local' />
                     <Input
                         type='submit'
                         value='Pridať'
