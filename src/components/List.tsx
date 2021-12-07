@@ -3,7 +3,7 @@
 import { Button, ToggleButtonGroup, Input, ToggleButton } from "@mui/material";
 import styled from "styled-components";
 import ToDoItem from "./ToDoItem";
-import { useFetchGET, FetchPOST, FetchPUT } from "../helpers/mockFunctions";
+import { useFetchGET, FetchPOST } from "../helpers/mockFunctions";
 import { TextareaAutosize } from "@mui/core";
 import { useForm } from "react-hook-form";
 import * as myConst from '../Constants/fileOfConstants'
@@ -157,7 +157,7 @@ export default function List() {
                         className='text-base'
                         placeholder='write notes'
                         maxRows={3} />
-                    <Input placeholder='Deadline' {...register("date")} type='datetime-local' />
+                    <Input type='datetime-local' {...register("date")} />
                     <Input
                         type='submit'
                         value='Pridať'

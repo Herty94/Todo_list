@@ -43,7 +43,7 @@ export default function ToDoItem(item: any) {
       <Container>
         <Title>{item.title}</Title>
         <Note>{item.note}</Note>
-        <DeadlineDate>{item.date.split('T').join('  ')}</DeadlineDate>
+        <DeadlineDate>{"ddl: " + item.date.replace('T', " ")}</DeadlineDate>
       </Container>
     </Div >
   )
