@@ -50,16 +50,32 @@ Rozumným štrukturovaním zdrojových kódov aplikácie
 
 Podstránky a rozloženie aplikácie nechávame na tebe
 
-## time
+## Upravy
 
-december 6.2021 (pon)- 1:00 start
+- [x] chyba axios (ale spravil si custom hook, co je advanced
+      functionalita)
 
-- 4h
+- [ ] na config pouzivat .env, ked uz je tam pouzity create-react-app
 
-pon 18:07
+- [ ] slaba struktura
 
-- 4h
+- [ ] komponenty sa nedefinuju v ramci renderu (dost velka chyba)
 
-pon 23:00
+- [ ] ziadny redux
 
--7h
+- [ ] neotypovane
+
+- [ ] zopar "skolackych" chyb
+
+- [ ] filtrovanie cez kategorie robi fetch, ked uz je zoznam natiahnuty
+      a staci ten prefiltrovat
+
+- [ ] nefunguje filtrovanie cez nazvy
+
+- [ ] slaby dizajn
+
+- [ ] po pridani todo itemu sa nezobrazi v liste
+
+- [ ] ziadna validacia formulaorv
+
+- [ ] nepouzity linter
