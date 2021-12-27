@@ -1,36 +1,34 @@
-
-
 import { Button, ToggleButtonGroup, Input, ToggleButton } from "@mui/material";
 import styled from "styled-components";
 import ToDoItem from "./ToDoItem";
 import { useFetchGET, FetchPOST } from "../helpers/mockFunctions";
 import { TextareaAutosize } from "@mui/core";
 import { useForm } from "react-hook-form";
-import * as myConst from '../Constants/fileOfConstants'
+import * as myConst from "../constants/fileOfConstants";
 import { useState } from "react";
 import { DeleteData } from "../helpers/mockFunctions";
-import st from '@mui/material/styles/styled';
+import st from "@mui/material/styles/styled";
 import { randomBytes } from "crypto";
 
 export default function List() {
   const { register, handleSubmit, reset } = useForm();
   const [dataChange, setData] = useState(randomBytes(16));
-  const [search, setSearch] = useState('');
-  const [filter, setFilter] = useState('');
+  const [search, setSearch] = useState("");
+  const [filter, setFilter] = useState("");
   const [input, setInput] = useState("");
   // geting data from mockapi.io using custom hook
-  const { data: items, loading } = useFetchGET(filter === '' ?
-    myConst.URL + '?search=' + search
-    : myConst.URL + filter,
-    dataChange)
+  const { data: items, loading } = useFetchGET(
+    filter === "" ? myConst.URL + "?search=" + search : myConst.URL + filter,
+    dataChange
+  );
   // posting data to mockapi.io
   const onSubmit = (data: any) => {
     data.done = false;
-    handlePost(myConst.URL, data)
+    handlePost(myConst.URL, data);
     reset();
     console.log(data);
     //window.location.reload();
-  }
+  };
 
   //styled components
   const Title = styled.h1`
@@ -38,24 +36,10 @@ export default function List() {
     text-align: center;
     color: palevioletred;
     font-weight: 900;
-    `;
+  `;
 
-  const RemoveButton = st(Button)`
-    color: #c70000;
-    background-color:#e38f8f ;
-    `;
-
-  const DoneButton = st(Button)`
-    background-color: lightgreen;
-    `;
-
-  const BackButton = st(Button)`
-    background-color: lightblue;
-    `;
-
-
-  // state handlers 
-  //TODO could be inproved using Redux 
+  // state handlers
+  //TODO could be inproved using Redux
   const handleKeyDown = (event: any) => {
     if (event.key === "Enter") {
       handleSearch(event.target.value);
@@ -67,107 +51,116 @@ export default function List() {
   }
   const handleFilter = (
     event: React.MouseEvent<HTMLElement>,
-    newAlignment: string | "",
+    newAlignment: string | ""
   ) => {
     setFilter(newAlignment);
     setData(randomBytes(16));
   };
 
   async function handlePost(url: string, data: any) {
-    await FetchPOST(url, data)
+    await FetchPOST(url, data);
     setData(randomBytes(16));
   }
   async function handleDelete(url: string, item: any) {
-    await DeleteData(url)
+    await DeleteData(url);
     setData(randomBytes(16));
   }
   async function changeDone(url: string, id: number, item: any, done: boolean) {
-    await DeleteData(url + '/' + id)
+    await DeleteData(url + "/" + id);
     item.done = done;
-    await FetchPOST(url, item)
+    await FetchPOST(url, item);
     setData(randomBytes(16));
   }
 
-
   return (
-    <div className='bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg'>
-      <div className='bg-red-100 rounded-t-xl'>
+    <div className="bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg">
+      <div className="bg-red-100 rounded-t-xl">
         <Title>ToDo Zoznam</Title>
       </div>
-      <div className='bg-white flex flex-row text-gray-400  items-center'>
-
-        <ToggleButtonGroup value={filter}
-          exclusive onChange={handleFilter}
-          color='primary'
-          aria-label="filter items">
+      <div className="bg-white flex flex-row text-gray-400  items-center">
+        <ToggleButtonGroup
+          value={filter}
+          exclusive
+          onChange={handleFilter}
+          color="primary"
+          aria-label="filter items"
+        >
           <ToggleButton value="">All</ToggleButton>
           <ToggleButton value="?filter=true">Done</ToggleButton>
-          <ToggleButton value='?filter=false'>not Done</ToggleButton>
+          <ToggleButton value="?filter=false">not Done</ToggleButton>
         </ToggleButtonGroup>
-        <div className='flex-1 p-2 w-full'>
+        <div className="flex-1 p-2 w-full">
           {/* for some reason, styled components is refreshing this input after every single character tiped */}
-          <Input type='search'
-
-            placeholder='Search'
+          <Input
+            type="search"
+            placeholder="Search"
             onKeyDown={handleKeyDown}
             value={input}
-            onChange={event => setInput(event.target.value)} />
+            onChange={(event) => setInput(event.target.value)}
+          />
         </div>
-      </div >
-      <div className='bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll'>
-
-
-
+      </div>
+      <div className="bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll">
         {loading && <p>Loading data ...</p>}
-        {items && items.map((item: any) => {
-          return (
-            <div className='flex flex-row bg-white rounded-md my-4 filter drop-shadow-xl'>
-              <div className='w-full'>
-                <ToDoItem
-                  title={item.title}
-                  note={item.note}
-                  date={item.date}
-                  time={item.time}
-                  done={item.done}
-                  key={item.id} />
+        {items &&
+          items.map((item: any) => {
+            return (
+              <div className="flex flex-row bg-white rounded-md my-4 filter drop-shadow-xl">
+                <div className="w-full">
+                  <ToDoItem
+                    title={item.title}
+                    note={item.note}
+                    date={item.date}
+                    time={item.time}
+                    done={item.done}
+                    key={item.id}
+                    onDelButtonClick={() =>
+                      handleDelete(String(myConst.URL + "/" + item.id), item)
+                    }
+                    onBackButtonClick={() =>
+                      changeDone(myConst.URL, item.id, item, false)
+                    }
+                    onDoneButtonClick={() =>
+                      changeDone(myConst.URL, item.id, item, true)
+                    }
+                  />
+                </div>
+                {/* TODO using redux buttons could be placed inside ToDoItem component */}
+                <div className="flex flex-col bg-white rounded-md my-4 filter"></div>
               </div>
-              {/* TODO using redux buttons could be placed inside ToDoItem component */}
-              <div className='flex flex-col bg-white rounded-md my-4 filter'>
-                {item.done ?
-                  <BackButton onClick={() => changeDone(myConst.URL, item.id, item, false)}>Back</BackButton>
-                  : <DoneButton onClick={() => changeDone(myConst.URL, item.id, item, true)}>Hotovo</DoneButton>}
-                <RemoveButton onClick={() => {
-                  handleDelete(String(myConst.URL + '/' + item.id), item);
-                }}>Zmazať</RemoveButton>
-              </div>
-            </div>
-          )
-        })}
+            );
+          })}
 
         <p>Add new ToDo</p>
       </div>
       <div>
-        <form className='flex text-black rounded-b-xl m-2 flex-col bg-gray-300' onSubmit={handleSubmit(onSubmit)} >
-          <Input {...register("title", { required: true })}
-            type='text'
-            placeholder='Title'
+        <form
+          className="flex text-black rounded-b-xl m-2 flex-col bg-gray-300"
+          onSubmit={handleSubmit(onSubmit)}
+        >
+          <Input
+            {...register("title", { required: true })}
+            type="text"
+            placeholder="Title"
           />
           <TextareaAutosize
             {...register("note")}
-            className='text-base'
-            placeholder='write notes'
-            maxRows={3} />
+            className="text-base"
+            placeholder="write notes"
+            maxRows={3}
+          />
           <div className="flex flex-row">
-            <label className='text-base pr-4 text-gray-500'>Deadline: </label>
-            <Input type='datetime-local' {...register("date")} />
+            <label className="text-base pr-4 text-gray-500">Deadline: </label>
+            <Input type="datetime-local" {...register("date")} />
           </div>
           <Input
-            className='bg-white rounded-b-xl hover:bg-gray-200'
-            type='submit'
-            value='Create ToDo Item'
-            disableUnderline={true} />
+            className="bg-white rounded-b-xl hover:bg-gray-200"
+            type="submit"
+            value="Create ToDo Item"
+            disableUnderline={true}
+          />
         </form>
       </div>
-    </div >
-  )
+    </div>
+  );
 }
