@@ -1,51 +1,50 @@
+import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-export function useFetchGET(url: string, dataChange: any) {
+export interface Item {
+  title: string
+  note: string
+  date: Date | string
+  done: boolean
+  id: number
+}
+
+export function useFetchGET(url: string, dataChange: Buffer) {
   const [data, setData] = useState([{}])
-  const [loading, setLoadin] = useState(true)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch(url)
+    axios
+      .get(url)
       .then((res) => {
-        if (!res.ok) throw Error('Could not fetch the data')
-        return res.json()
-      })
-      .then((data) => {
-        setData(data)
-        console.log(data)
-        setLoadin(false)
+        setData(res.data)
+        setLoading(false)
       })
       .catch((err) => {
-        setLoadin(false)
+        setLoading(false)
         console.log('ERROR' + err.message)
       })
-  }, [dataChange])
+  }, [url, dataChange])
   return { data, loading }
 }
 
-export function FetchPOST(url: string, data: any) {
-  return fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  }).then(() => {
+export function postData(url: string, data: Item) {
+  return axios.post(url, data).then(() => {
     console.log('new ToDo item created')
   })
 }
-export function FetchPUT(url: string, done: any) {
-  return fetch(url, {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ done: done }),
-  }).then(() => {
+
+export function putData(url: string, data: Item) {
+  return axios.put(url, data).then(() => {
     console.log('ToDo item changed')
   })
 }
 
-export function DeleteData(url: string) {
-  return fetch(url, {
-    method: 'DELETE',
-  })
+export function deleteData(url: string) {
+  return axios
+    .delete(url, {
+      method: 'DELETE',
+    })
     .then(() => {
       console.log('ToDo item deleted')
     })

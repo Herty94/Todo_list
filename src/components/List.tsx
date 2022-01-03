@@ -1,78 +1,115 @@
-import { Button, ToggleButtonGroup, Input, ToggleButton } from "@mui/material";
+import { ToggleButtonGroup, Input, ToggleButton } from "@mui/material";
 import styled from "styled-components";
 import ToDoItem from "./ToDoItem";
-import { useFetchGET, FetchPOST } from "../helpers/mockFunctions";
-import { TextareaAutosize } from "@mui/core";
-import { useForm } from "react-hook-form";
-import * as myConst from "../constants/fileOfConstants";
-import { useState } from "react";
-import { DeleteData } from "../helpers/mockFunctions";
-import st from "@mui/material/styles/styled";
+import { useFetchGET, putData, Item, postData } from "../helpers/mockFunctions";
+import React, { useState } from "react";
+import { deleteData } from "../helpers/mockFunctions";
 import { randomBytes } from "crypto";
+import NewItemForm from "./NewItemForm";
+import { ContactlessOutlined } from "@mui/icons-material";
 
-export default function List() {
-  const { register, handleSubmit, reset } = useForm();
+
+
+
+//styled components
+const Title = styled.h1`
+font-size: 1.2em;
+text-align: center;
+color: palevioletred;
+font-weight: 900;
+`;
+
+
+
+const List: React.FC = () => {
   const [dataChange, setData] = useState(randomBytes(16));
-  const [search, setSearch] = useState("");
-  const [filter, setFilter] = useState("");
+  const [filter, setFilter] = useState(-1);
   const [input, setInput] = useState("");
+
   // geting data from mockapi.io using custom hook
+  const itemUrl = process.env.REACT_APP_API_URL + '/items'
   const { data: items, loading } = useFetchGET(
-    filter === "" ? myConst.URL + "?search=" + search : myConst.URL + filter,
+    itemUrl,
     dataChange
   );
-  // posting data to mockapi.io
-  const onSubmit = (data: any) => {
-    data.done = false;
-    handlePost(myConst.URL, data);
-    reset();
-    console.log(data);
-    //window.location.reload();
-  };
 
-  //styled components
-  const Title = styled.h1`
-    font-size: 1.2em;
-    text-align: center;
-    color: palevioletred;
-    font-weight: 900;
-  `;
-
-  // state handlers
-  //TODO could be inproved using Redux
-  const handleKeyDown = (event: any) => {
-    if (event.key === "Enter") {
-      handleSearch(event.target.value);
-    }
+  const mapRender = (item: any) => {
+    return (
+      <ToDoItem
+        title={item.title}
+        note={item.note}
+        date={item.date}
+        done={item.done}
+        id={item.id}
+        key={`item-${item.id}`}
+        onDelButtonClick={() =>
+          handleDelete(itemUrl, item.id)
+        }
+        onBackButtonClick={() =>
+          changeDone(itemUrl, item.id, item, false)
+        }
+        onDoneButtonClick={() =>
+          changeDone(itemUrl, item.id, item, true)
+        }
+      />
+    )
   };
-  function handleSearch(searchText: string) {
-    setSearch(searchText);
-    setData(randomBytes(16));
+  const renderedItems = () => {
+    if (items)
+      if (filter >= 0) {
+        console.log("plačem")
+        return items.filter((item: any) => item.done == filter).map((item: any) => {
+          if (input !== "") {
+            if (item.title.includes(input))
+              return mapRender(item)
+          }
+          else
+            return mapRender(item)
+        })
+      }
+      else
+        return items.map((item: any) => {
+          console.log("čom to nejde")
+          if (input !== "") {
+            if (item.title.includes(input))
+              return mapRender(item)
+          }
+          else
+            return mapRender(item)
+        })
   }
+
+
+
+
+  // posting data to mockapi.io
+
   const handleFilter = (
     event: React.MouseEvent<HTMLElement>,
-    newAlignment: string | ""
+    value: number
   ) => {
-    setFilter(newAlignment);
-    setData(randomBytes(16));
+    setFilter(value);
   };
 
-  async function handlePost(url: string, data: any) {
-    await FetchPOST(url, data);
-    setData(randomBytes(16));
+
+
+  async function handleDelete(url: string, id: number) {
+    await deleteData(url + "/" + id);
+    setData(randomBytes(16))
+
   }
-  async function handleDelete(url: string, item: any) {
-    await DeleteData(url);
-    setData(randomBytes(16));
+  async function changeDone(url: string, id: number, item: Item, done: boolean) {
+    let newItem = { ...item, done: done };
+    await putData(url + "/" + id, newItem)
+    setData(randomBytes(16))
   }
-  async function changeDone(url: string, id: number, item: any, done: boolean) {
-    await DeleteData(url + "/" + id);
-    item.done = done;
-    await FetchPOST(url, item);
-    setData(randomBytes(16));
+  async function handlePost(url: string, data: Item) {
+    await postData(url, data);
+    setData(randomBytes(16))
   }
 
   return (
+
     <div className="bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg">
       <div className="bg-red-100 rounded-t-xl">
         <Title>ToDo Zoznam</Title>
@@ -85,16 +122,14 @@ export default function List() {
           color="primary"
           aria-label="filter items"
         >
-          <ToggleButton value="">All</ToggleButton>
-          <ToggleButton value="?filter=true">Done</ToggleButton>
-          <ToggleButton value="?filter=false">not Done</ToggleButton>
+          <ToggleButton value={-1}>All</ToggleButton>
+          <ToggleButton value={1}>Done</ToggleButton>
+          <ToggleButton value={0}>not Done</ToggleButton>
         </ToggleButtonGroup>
         <div className="flex-1 p-2 w-full">
-          {/* for some reason, styled components is refreshing this input after every single character tiped */}
           <Input
             type="search"
             placeholder="Search"
-            onKeyDown={handleKeyDown}
             value={input}
             onChange={(event) => setInput(event.target.value)}
           />
@@ -102,65 +137,17 @@ export default function List() {
       </div>
       <div className="bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll">
         {loading && <p>Loading data ...</p>}
-        {items &&
-          items.map((item: any) => {
-            return (
-              <div className="flex flex-row bg-white rounded-md my-4 filter drop-shadow-xl">
-                <div className="w-full">
-                  <ToDoItem
-                    title={item.title}
-                    note={item.note}
-                    date={item.date}
-                    time={item.time}
-                    done={item.done}
-                    key={item.id}
-                    onDelButtonClick={() =>
-                      handleDelete(String(myConst.URL + "/" + item.id), item)
-                    }
-                    onBackButtonClick={() =>
-                      changeDone(myConst.URL, item.id, item, false)
-                    }
-                    onDoneButtonClick={() =>
-                      changeDone(myConst.URL, item.id, item, true)
-                    }
-                  />
-                </div>
-                {/* TODO using redux buttons could be placed inside ToDoItem component */}
-                <div className="flex flex-col bg-white rounded-md my-4 filter"></div>
-              </div>
-            );
-          })}
-
+        {renderedItems()}
         <p>Add new ToDo</p>
       </div>
       <div>
-        <form
-          className="flex text-black rounded-b-xl m-2 flex-col bg-gray-300"
-          onSubmit={handleSubmit(onSubmit)}
-        >
-          <Input
-            {...register("title", { required: true })}
-            type="text"
-            placeholder="Title"
-          />
-          <TextareaAutosize
-            {...register("note")}
-            className="text-base"
-            placeholder="write notes"
-            maxRows={3}
-          />
-          <div className="flex flex-row">
-            <label className="text-base pr-4 text-gray-500">Deadline: </label>
-            <Input type="datetime-local" {...register("date")} />
-          </div>
-          <Input
-            className="bg-white rounded-b-xl hover:bg-gray-200"
-            type="submit"
-            value="Create ToDo Item"
-            disableUnderline={true}
-          />
-        </form>
+        <NewItemForm url={itemUrl} formFun={handlePost} />
       </div>
-    </div>
+    </div >
   );
 }
+// state handlers
+//TODO could be inproved using Redux
+
+
+export default List;

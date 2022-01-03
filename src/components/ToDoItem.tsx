@@ -1,73 +1,107 @@
 import { Container, Button } from "@mui/material";
 import styled from "styled-components";
-import { useState } from "react";
 import st from "@mui/material/styles/styled";
+import { MouseEventHandler } from 'react'
+import { Item } from "../helpers/mockFunctions";
 
-export default function ToDoItem(item: any) {
-  const [isDone, setDone] = useState(item.done);
-  const dNow = new Date();
-  const d = new Date(item.date);
 
-  let hourNow = dNow.getHours();
-  let hour = d.getHours();
-
-  const Title = styled.h2`
-    text-align: left;
-    color: #d44d2f;
-    font-weight: 700;
-  `;
-  const Note = styled.p`
-    text-align: left;
-    font-size: 1rem;
-    color: #8a8a8a;
-  `;
-  const DeadlineDate = styled.p`
-    color: ${hour - hourNow > 2
-      ? "rgb(" + ((hour - hourNow) % 255) + ", 100, 0) "
-      : "#ff7575"};
-    text-align: left;
-    font-size: 1rem;
-  `;
-  const DoneButton = st(Button)`
-  background-color: lightgreen;
-  `;
-
-  const BackButton = st(Button)`
-  background-color: lightblue;
-  `;
-
-  const RemoveButton = st(Button)`
+const RemoveButton = st(Button)`
   color: #c70000;
   background-color:#e38f8f ;
   `;
 
-  const Div = styled.div`
-    background-color: ${isDone ? "#dedede" : "white"};
-    border-top-left-radius: 0.375rem;
-    border-bottom-left-radius  0.375rem;
-    padding-top: 1rem;
-    height:100%
+
+const Title = styled.h2`
+    text-align: left;
+    color: #d44d2f;
+    font-weight: 700;
+    font-size:1.2rem
+  `;
+const Note = styled.p`
+    text-align: left;
+    font-size: 1rem;
+    color: #8a8a8a;
+  `;
+const DoneButton = st(Button)`
+  background-color: lightgreen;
   `;
 
+const BackButton = st(Button)`
+  background-color: lightblue;
+  `;
+
+
+
+
+type Props = { isDone: boolean };
+type DiffProbe = { diffinH: number };
+
+const Div = styled.div`
+  width:100%;
+  display:flex;
+  background-color: ${(props: Props) => props.isDone === true ? "#f1dbff" : "white"};
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius  0.375rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin:0;
+`;
+
+const DeadlineDate = styled.p`
+color: ${(props: DiffProbe) =>
+    props.diffinH < 48 ? "rgb(150," + 255 / 48 * props.diffinH + ",0)" : "green"
+  };
+width: 50 %;
+text-align: right;
+font-size: 0.9rem;
+`;
+
+interface ThisItem extends Item {
+  onDelButtonClick: MouseEventHandler<HTMLButtonElement>,
+  onBackButtonClick: MouseEventHandler<HTMLButtonElement>,
+  onDoneButtonClick: MouseEventHandler<HTMLButtonElement>
+}
+
+
+
+
+const ToDoItem: React.FC<ThisItem> = (props) => {
+  const date1 = new Date();
+  const date2 = new Date(props.date);
+
+  // To calculate the time difference of two dates
+  const Difference_In_Time = date2.getTime() - date1.getTime();
+
+  // To calculate the no. of days between two dates
+
+  const Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
+  const Difference_In_Hours = Math.round(Difference_In_Time / (1000 * 3600));
+
+
   return (
-    <Div>
-      <Container>
-        <Title>{item.title}</Title>
-        <Note>{item.note}</Note>
-        <DeadlineDate>
-          {item.date && "ddl: " + item.date.replace("T", " ")}
-        </DeadlineDate>
-      </Container>
-      {item.done ? (
-        <BackButton onClick={item.onBackButtonClick}>Back</BackButton>
-      ) : (
-        <DoneButton onClick={item.onDoneButtonClick}>Hotovo</DoneButton>
-      )}
-      <RemoveButton onClick={item.onDelButtonClick}>Zmazať</RemoveButton>
-    </Div>
+    <div className="flex bg-white rounded-md my-4 filter drop-shadow-xl">
+      <Div isDone={props.done}>
+        <div className="w-full flex-row">
+          <Container>
+            <Title>{props.title}</Title>
+            <Note>{props.note}</Note>
+            <DeadlineDate diffinH={Difference_In_Hours}>
+              {props.date && `${Difference_In_Days > 0 ? Difference_In_Days + "d" : " "}` + (Difference_In_Hours - (24 * Difference_In_Days)) + "h"}
+            </DeadlineDate>
+          </Container>
+
+        </div>
+        <div className="flex flex-col">
+          <RemoveButton onClick={props.onDelButtonClick}>X</RemoveButton>
+          {props.done ? (
+            <BackButton onClick={props.onBackButtonClick}>{">"}</BackButton>
+          ) : (
+            <DoneButton onClick={props.onDoneButtonClick}>O</DoneButton>
+          )}
+        </div>
+      </Div>
+    </div >
   );
 }
 
-function useSate(arg0: boolean): [any, any] {
-  throw new Error("Function not implemented.");
-}
+export default ToDoItem;
