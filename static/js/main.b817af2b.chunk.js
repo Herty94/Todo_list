@@ -1,10 +1,10 @@
-function cov_97mgdr26a() {
-  var path = "D:\\David\\Praca\\AMCEF\\start_project\\todo_list\\build\\static\\js\\main.ef0d3833.chunk.js";
-  var hash = "add9ce15819afe392971e934ab64a0e99ca8a15e";
+function cov_mem31pbvz() {
+  var path = "D:\\David\\Praca\\AMCEF\\start_project\\todo_list\\build\\static\\js\\main.b817af2b.chunk.js";
+  var hash = "39278b4025cdf572e45d258ac7d91ebd8c969db6";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "D:\\David\\Praca\\AMCEF\\start_project\\todo_list\\build\\static\\js\\main.ef0d3833.chunk.js",
+    path: "D:\\David\\Praca\\AMCEF\\start_project\\todo_list\\build\\static\\js\\main.b817af2b.chunk.js",
     statementMap: {
       "0": {
         start: {
@@ -13,7 +13,7 @@ function cov_97mgdr26a() {
         },
         end: {
           line: 1,
-          column: 8312
+          column: 8356
         }
       },
       "1": {
@@ -403,7 +403,7 @@ function cov_97mgdr26a() {
         },
         end: {
           line: 1,
-          column: 2499
+          column: 2543
         }
       },
       "40": {
@@ -413,900 +413,880 @@ function cov_97mgdr26a() {
         },
         end: {
           line: 1,
-          column: 2496
+          column: 2540
         }
       },
       "41": {
         start: {
           line: 1,
-          column: 2514
+          column: 2558
         },
         end: {
           line: 1,
-          column: 2650
+          column: 2694
         }
       },
       "42": {
         start: {
           line: 1,
-          column: 2570
+          column: 2614
         },
         end: {
           line: 1,
-          column: 2602
+          column: 2646
         }
       },
       "43": {
         start: {
           line: 1,
-          column: 2625
+          column: 2669
         },
         end: {
           line: 1,
-          column: 2647
+          column: 2691
         }
       },
       "44": {
         start: {
           line: 1,
-          column: 2657
+          column: 2701
         },
         end: {
           line: 1,
-          column: 2662
+          column: 2706
         }
       },
       "45": {
         start: {
           line: 1,
-          column: 2665
+          column: 2709
         },
         end: {
           line: 1,
-          column: 2671
+          column: 2715
         }
       },
       "46": {
         start: {
           line: 1,
-          column: 2674
+          column: 2718
         },
         end: {
           line: 1,
-          column: 2679
+          column: 2723
         }
       },
       "47": {
-        start: {
-          line: 1,
-          column: 2682
-        },
-        end: {
-          line: 1,
-          column: 2688
-        }
-      },
-      "48": {
-        start: {
-          line: 1,
-          column: 2691
-        },
-        end: {
-          line: 1,
-          column: 2697
-        }
-      },
-      "49": {
-        start: {
-          line: 1,
-          column: 2708
-        },
-        end: {
-          line: 1,
-          column: 4180
-        }
-      },
-      "50": {
         start: {
           line: 1,
           column: 2726
         },
         end: {
           line: 1,
-          column: 2739
+          column: 2732
+        }
+      },
+      "48": {
+        start: {
+          line: 1,
+          column: 2735
+        },
+        end: {
+          line: 1,
+          column: 2741
+        }
+      },
+      "49": {
+        start: {
+          line: 1,
+          column: 2752
+        },
+        end: {
+          line: 1,
+          column: 4224
+        }
+      },
+      "50": {
+        start: {
+          line: 1,
+          column: 2770
+        },
+        end: {
+          line: 1,
+          column: 2783
         }
       },
       "51": {
         start: {
           line: 1,
-          column: 2742
+          column: 2786
         },
         end: {
           line: 1,
-          column: 2752
+          column: 2796
         }
       },
       "52": {
         start: {
           line: 1,
-          column: 2755
+          column: 2799
         },
         end: {
           line: 1,
-          column: 2769
+          column: 2813
         }
       },
       "53": {
         start: {
           line: 1,
-          column: 2772
+          column: 2816
         },
         end: {
           line: 1,
-          column: 2779
+          column: 2823
         }
       },
       "54": {
         start: {
           line: 1,
-          column: 2782
+          column: 2826
         },
         end: {
           line: 1,
-          column: 2806
+          column: 2850
         }
       },
       "55": {
         start: {
           line: 1,
-          column: 2809
+          column: 2853
         },
         end: {
           line: 1,
-          column: 2825
+          column: 2869
         }
       },
       "56": {
         start: {
           line: 1,
-          column: 2828
+          column: 2872
         },
         end: {
           line: 1,
-          column: 2832
+          column: 2876
         }
       },
       "57": {
         start: {
           line: 1,
-          column: 2835
+          column: 2879
         },
         end: {
           line: 1,
-          column: 2839
+          column: 2883
         }
       },
       "58": {
         start: {
           line: 1,
-          column: 2840
+          column: 2884
         },
         end: {
           line: 1,
-          column: 4179
+          column: 4223
         }
       },
       "59": {
         start: {
           line: 1,
-          column: 2908
+          column: 2952
         },
         end: {
           line: 1,
-          column: 2988
+          column: 3032
         }
       },
       "60": {
         start: {
           line: 1,
-          column: 3105
+          column: 3149
         },
         end: {
           line: 1,
-          column: 3115
+          column: 3159
         }
       },
       "61": {
         start: {
           line: 1,
-          column: 3121
+          column: 3165
         },
         end: {
           line: 1,
-          column: 3461
+          column: 3505
         }
       },
       "62": {
         start: {
           line: 1,
-          column: 3139
+          column: 3183
         },
         end: {
           line: 1,
-          column: 3409
+          column: 3453
         }
       },
       "63": {
         start: {
           line: 1,
-          column: 3410
+          column: 3454
         },
         end: {
           line: 1,
-          column: 3457
+          column: 3501
         }
       },
       "64": {
         start: {
           line: 1,
-          column: 3462
+          column: 3506
         },
         end: {
           line: 1,
-          column: 3582
+          column: 3626
         }
       },
       "65": {
         start: {
           line: 1,
-          column: 4183
+          column: 4227
         },
         end: {
           line: 1,
-          column: 4299
+          column: 4343
         }
       },
       "66": {
         start: {
           line: 1,
-          column: 4302
+          column: 4346
         },
         end: {
           line: 1,
-          column: 7590
+          column: 7634
         }
       },
       "67": {
         start: {
           line: 1,
-          column: 4319
+          column: 4363
         },
         end: {
           line: 1,
-          column: 4364
+          column: 4408
         }
       },
       "68": {
         start: {
           line: 1,
-          column: 4367
+          column: 4411
         },
         end: {
           line: 1,
-          column: 4383
+          column: 4427
         }
       },
       "69": {
         start: {
           line: 1,
-          column: 4386
+          column: 4430
         },
         end: {
           line: 1,
-          column: 4390
+          column: 4434
         }
       },
       "70": {
         start: {
           line: 1,
-          column: 4393
-        },
-        end: {
-          line: 1,
-          column: 4397
-        }
-      },
-      "71": {
-        start: {
-          line: 1,
-          column: 4400
-        },
-        end: {
-          line: 1,
-          column: 4422
-        }
-      },
-      "72": {
-        start: {
-          line: 1,
-          column: 4425
+          column: 4437
         },
         end: {
           line: 1,
           column: 4441
         }
       },
-      "73": {
+      "71": {
         start: {
           line: 1,
           column: 4444
         },
         end: {
           line: 1,
-          column: 4448
+          column: 4466
+        }
+      },
+      "72": {
+        start: {
+          line: 1,
+          column: 4469
+        },
+        end: {
+          line: 1,
+          column: 4485
+        }
+      },
+      "73": {
+        start: {
+          line: 1,
+          column: 4488
+        },
+        end: {
+          line: 1,
+          column: 4492
         }
       },
       "74": {
         start: {
           line: 1,
-          column: 4451
-        },
-        end: {
-          line: 1,
-          column: 4455
-        }
-      },
-      "75": {
-        start: {
-          line: 1,
-          column: 4458
-        },
-        end: {
-          line: 1,
-          column: 4480
-        }
-      },
-      "76": {
-        start: {
-          line: 1,
-          column: 4483
+          column: 4495
         },
         end: {
           line: 1,
           column: 4499
         }
       },
-      "77": {
+      "75": {
         start: {
           line: 1,
           column: 4502
         },
         end: {
           line: 1,
-          column: 4506
+          column: 4524
+        }
+      },
+      "76": {
+        start: {
+          line: 1,
+          column: 4527
+        },
+        end: {
+          line: 1,
+          column: 4543
+        }
+      },
+      "77": {
+        start: {
+          line: 1,
+          column: 4546
+        },
+        end: {
+          line: 1,
+          column: 4550
         }
       },
       "78": {
         start: {
           line: 1,
-          column: 4509
+          column: 4553
         },
         end: {
           line: 1,
-          column: 4513
+          column: 4557
         }
       },
       "79": {
         start: {
           line: 1,
-          column: 4516
+          column: 4560
         },
         end: {
           line: 1,
-          column: 4567
+          column: 4611
         }
       },
       "80": {
         start: {
           line: 1,
-          column: 4570
+          column: 4614
         },
         end: {
           line: 1,
-          column: 4885
+          column: 4929
         }
       },
       "81": {
         start: {
           line: 1,
-          column: 4590
+          column: 4634
         },
         end: {
           line: 1,
-          column: 4614
+          column: 4658
         }
       },
       "82": {
         start: {
           line: 1,
-          column: 4617
+          column: 4661
         },
         end: {
           line: 1,
-          column: 4633
+          column: 4677
         }
       },
       "83": {
         start: {
           line: 1,
-          column: 4636
+          column: 4680
         },
         end: {
           line: 1,
-          column: 4640
+          column: 4684
         }
       },
       "84": {
         start: {
           line: 1,
-          column: 4643
-        },
-        end: {
-          line: 1,
-          column: 4647
-        }
-      },
-      "85": {
-        start: {
-          line: 1,
-          column: 4650
-        },
-        end: {
-          line: 1,
-          column: 4672
-        }
-      },
-      "86": {
-        start: {
-          line: 1,
-          column: 4675
+          column: 4687
         },
         end: {
           line: 1,
           column: 4691
         }
       },
-      "87": {
+      "85": {
         start: {
           line: 1,
           column: 4694
         },
         end: {
           line: 1,
-          column: 4698
+          column: 4716
+        }
+      },
+      "86": {
+        start: {
+          line: 1,
+          column: 4719
+        },
+        end: {
+          line: 1,
+          column: 4735
+        }
+      },
+      "87": {
+        start: {
+          line: 1,
+          column: 4738
+        },
+        end: {
+          line: 1,
+          column: 4742
         }
       },
       "88": {
-        start: {
-          line: 1,
-          column: 4701
-        },
-        end: {
-          line: 1,
-          column: 4705
-        }
-      },
-      "89": {
-        start: {
-          line: 1,
-          column: 4706
-        },
-        end: {
-          line: 1,
-          column: 4879
-        }
-      },
-      "90": {
         start: {
           line: 1,
           column: 4745
         },
         end: {
           line: 1,
-          column: 4851
+          column: 4749
+        }
+      },
+      "89": {
+        start: {
+          line: 1,
+          column: 4750
+        },
+        end: {
+          line: 1,
+          column: 4923
+        }
+      },
+      "90": {
+        start: {
+          line: 1,
+          column: 4789
+        },
+        end: {
+          line: 1,
+          column: 4895
         }
       },
       "91": {
         start: {
           line: 1,
-          column: 4774
+          column: 4818
         },
         end: {
           line: 1,
-          column: 4789
+          column: 4833
         }
       },
       "92": {
         start: {
           line: 1,
-          column: 4812
+          column: 4856
         },
         end: {
           line: 1,
-          column: 4848
+          column: 4892
         }
       },
       "93": {
         start: {
           line: 1,
-          column: 4888
+          column: 4932
         },
         end: {
           line: 1,
-          column: 4894
+          column: 4938
         }
       },
       "94": {
         start: {
           line: 1,
-          column: 4897
+          column: 4941
         },
         end: {
           line: 1,
-          column: 4906
+          column: 4950
         }
       },
       "95": {
         start: {
           line: 1,
-          column: 4909
+          column: 4953
         },
         end: {
           line: 1,
-          column: 5220
+          column: 5264
         }
       },
       "96": {
         start: {
           line: 1,
-          column: 4921
+          column: 4965
         },
         end: {
           line: 1,
-          column: 5219
+          column: 5263
         }
       },
       "97": {
         start: {
           line: 1,
-          column: 5031
+          column: 5075
         },
         end: {
           line: 1,
-          column: 5091
+          column: 5135
         }
       },
       "98": {
         start: {
           line: 1,
-          column: 5052
+          column: 5096
         },
         end: {
           line: 1,
-          column: 5082
+          column: 5126
         }
       },
       "99": {
         start: {
           line: 1,
-          column: 5122
+          column: 5166
         },
         end: {
           line: 1,
-          column: 5143
+          column: 5187
         }
       },
       "100": {
         start: {
           line: 1,
-          column: 5174
+          column: 5218
         },
         end: {
           line: 1,
-          column: 5195
+          column: 5239
         }
       },
       "101": {
         start: {
           line: 1,
-          column: 5234
+          column: 5278
         },
         end: {
           line: 1,
-          column: 5474
+          column: 5518
         }
       },
       "102": {
         start: {
           line: 1,
-          column: 5281
+          column: 5325
         },
         end: {
           line: 1,
-          column: 5447
+          column: 5491
         }
       },
       "103": {
         start: {
           line: 1,
-          column: 5310
+          column: 5354
         },
         end: {
           line: 1,
-          column: 5442
+          column: 5486
         }
       },
       "104": {
         start: {
           line: 1,
-          column: 5317
+          column: 5361
         },
         end: {
           line: 1,
-          column: 5442
+          column: 5486
         }
       },
       "105": {
         start: {
           line: 1,
-          column: 5346
+          column: 5390
         },
         end: {
           line: 1,
-          column: 5373
+          column: 5417
         }
       },
       "106": {
         start: {
           line: 1,
-          column: 5380
+          column: 5424
         },
         end: {
           line: 1,
-          column: 5409
+          column: 5453
         }
       },
       "107": {
         start: {
           line: 1,
-          column: 5426
+          column: 5470
         },
         end: {
           line: 1,
-          column: 5441
+          column: 5485
         }
       },
       "108": {
-        start: {
-          line: 1,
-          column: 5495
-        },
-        end: {
-          line: 1,
-          column: 5525
-        }
-      },
-      "109": {
         start: {
           line: 1,
           column: 5539
         },
         end: {
           line: 1,
-          column: 5836
+          column: 5569
+        }
+      },
+      "109": {
+        start: {
+          line: 1,
+          column: 5583
+        },
+        end: {
+          line: 1,
+          column: 5880
         }
       },
       "110": {
         start: {
           line: 1,
-          column: 5596
+          column: 5640
         },
         end: {
           line: 1,
-          column: 5809
+          column: 5853
         }
       },
       "111": {
         start: {
           line: 1,
-          column: 5625
+          column: 5669
         },
         end: {
           line: 1,
-          column: 5804
+          column: 5848
         }
       },
       "112": {
         start: {
           line: 1,
-          column: 5632
+          column: 5676
         },
         end: {
           line: 1,
-          column: 5804
+          column: 5848
         }
       },
       "113": {
         start: {
           line: 1,
-          column: 5661
+          column: 5705
         },
         end: {
           line: 1,
-          column: 5735
+          column: 5779
         }
       },
       "114": {
         start: {
           line: 1,
-          column: 5742
+          column: 5786
         },
         end: {
           line: 1,
-          column: 5771
+          column: 5815
         }
       },
       "115": {
         start: {
           line: 1,
-          column: 5788
+          column: 5832
         },
         end: {
           line: 1,
-          column: 5803
+          column: 5847
         }
       },
       "116": {
         start: {
           line: 1,
-          column: 5850
+          column: 5894
         },
         end: {
           line: 1,
-          column: 6086
+          column: 6130
         }
       },
       "117": {
         start: {
           line: 1,
-          column: 5897
+          column: 5941
         },
         end: {
           line: 1,
-          column: 6059
+          column: 6103
         }
       },
       "118": {
         start: {
           line: 1,
-          column: 5926
+          column: 5970
         },
         end: {
           line: 1,
-          column: 6054
+          column: 6098
         }
       },
       "119": {
         start: {
           line: 1,
-          column: 5933
+          column: 5977
         },
         end: {
           line: 1,
-          column: 6054
+          column: 6098
         }
       },
       "120": {
         start: {
           line: 1,
-          column: 5962
+          column: 6006
         },
         end: {
           line: 1,
-          column: 5985
+          column: 6029
         }
       },
       "121": {
         start: {
           line: 1,
-          column: 5992
+          column: 6036
         },
         end: {
           line: 1,
-          column: 6021
+          column: 6065
         }
       },
       "122": {
         start: {
           line: 1,
-          column: 6038
+          column: 6082
         },
         end: {
           line: 1,
-          column: 6053
+          column: 6097
         }
       },
       "123": {
         start: {
           line: 1,
-          column: 6087
+          column: 6131
         },
         end: {
           line: 1,
-          column: 7589
+          column: 7633
         }
       },
       "124": {
         start: {
           line: 1,
-          column: 6482
+          column: 6526
         },
         end: {
           line: 1,
-          column: 6671
+          column: 6715
         }
       },
       "125": {
         start: {
           line: 1,
-          column: 6504
+          column: 6548
         },
         end: {
           line: 1,
-          column: 6534
+          column: 6578
         }
       },
       "126": {
         start: {
           line: 1,
-          column: 6534
+          column: 6578
         },
         end: {
           line: 1,
-          column: 6540
+          column: 6584
         }
       },
       "127": {
         start: {
           line: 1,
-          column: 6547
-        },
-        end: {
-          line: 1,
-          column: 6582
-        }
-      },
-      "128": {
-        start: {
-          line: 1,
-          column: 6582
-        },
-        end: {
-          line: 1,
-          column: 6588
-        }
-      },
-      "129": {
-        start: {
-          line: 1,
-          column: 6595
+          column: 6591
         },
         end: {
           line: 1,
           column: 6626
         }
       },
-      "130": {
+      "128": {
         start: {
           line: 1,
           column: 6626
@@ -1316,204 +1296,224 @@ function cov_97mgdr26a() {
           column: 6632
         }
       },
-      "131": {
+      "129": {
         start: {
           line: 1,
-          column: 6640
+          column: 6639
         },
         end: {
           line: 1,
           column: 6670
         }
       },
-      "132": {
+      "130": {
         start: {
           line: 1,
-          column: 7012
+          column: 6670
         },
         end: {
           line: 1,
-          column: 7036
+          column: 6676
+        }
+      },
+      "131": {
+        start: {
+          line: 1,
+          column: 6684
+        },
+        end: {
+          line: 1,
+          column: 6714
+        }
+      },
+      "132": {
+        start: {
+          line: 1,
+          column: 7056
+        },
+        end: {
+          line: 1,
+          column: 7080
         }
       },
       "133": {
         start: {
           line: 1,
-          column: 7232
+          column: 7276
         },
         end: {
           line: 1,
-          column: 7424
+          column: 7468
         }
       },
       "134": {
         start: {
           line: 1,
-          column: 7237
+          column: 7281
         },
         end: {
           line: 1,
-          column: 7424
+          column: 7468
         }
       },
       "135": {
         start: {
           line: 1,
-          column: 7271
+          column: 7315
         },
         end: {
           line: 1,
-          column: 7287
+          column: 7331
         }
       },
       "136": {
         start: {
           line: 1,
-          column: 7308
+          column: 7352
         },
         end: {
           line: 1,
-          column: 7353
+          column: 7397
         }
       },
       "137": {
         start: {
           line: 1,
-          column: 7376
+          column: 7420
         },
         end: {
           line: 1,
-          column: 7421
+          column: 7465
         }
       },
       "138": {
         start: {
           line: 1,
-          column: 7551
+          column: 7595
         },
         end: {
           line: 1,
-          column: 7581
+          column: 7625
         }
       },
       "139": {
         start: {
           line: 1,
-          column: 7593
+          column: 7637
         },
         end: {
           line: 1,
-          column: 7892
+          column: 7936
         }
       },
       "140": {
         start: {
           line: 1,
-          column: 7895
+          column: 7939
         },
         end: {
           line: 1,
-          column: 8009
+          column: 8053
         }
       },
       "141": {
         start: {
           line: 1,
-          column: 7906
+          column: 7950
         },
         end: {
           line: 1,
-          column: 8008
+          column: 8052
         }
       },
       "142": {
         start: {
           line: 1,
-          column: 8012
+          column: 8056
         },
         end: {
           line: 1,
-          column: 8186
+          column: 8230
         }
       },
       "143": {
         start: {
           line: 1,
-          column: 8024
+          column: 8068
         },
         end: {
           line: 1,
-          column: 8185
+          column: 8229
         }
       },
       "144": {
-        start: {
-          line: 1,
-          column: 8104
-        },
-        end: {
-          line: 1,
-          column: 8112
-        }
-      },
-      "145": {
-        start: {
-          line: 1,
-          column: 8115
-        },
-        end: {
-          line: 1,
-          column: 8123
-        }
-      },
-      "146": {
-        start: {
-          line: 1,
-          column: 8126
-        },
-        end: {
-          line: 1,
-          column: 8134
-        }
-      },
-      "147": {
-        start: {
-          line: 1,
-          column: 8137
-        },
-        end: {
-          line: 1,
-          column: 8145
-        }
-      },
-      "148": {
         start: {
           line: 1,
           column: 8148
         },
         end: {
           line: 1,
-          column: 8157
+          column: 8156
+        }
+      },
+      "145": {
+        start: {
+          line: 1,
+          column: 8159
+        },
+        end: {
+          line: 1,
+          column: 8167
+        }
+      },
+      "146": {
+        start: {
+          line: 1,
+          column: 8170
+        },
+        end: {
+          line: 1,
+          column: 8178
+        }
+      },
+      "147": {
+        start: {
+          line: 1,
+          column: 8181
+        },
+        end: {
+          line: 1,
+          column: 8189
+        }
+      },
+      "148": {
+        start: {
+          line: 1,
+          column: 8192
+        },
+        end: {
+          line: 1,
+          column: 8201
         }
       },
       "149": {
         start: {
           line: 1,
-          column: 8158
+          column: 8202
         },
         end: {
           line: 1,
-          column: 8182
+          column: 8226
         }
       },
       "150": {
         start: {
           line: 1,
-          column: 8187
+          column: 8231
         },
         end: {
           line: 1,
-          column: 8295
+          column: 8339
         }
       }
     },
@@ -1897,7 +1897,7 @@ function cov_97mgdr26a() {
           },
           end: {
             line: 1,
-            column: 8296
+            column: 8340
           }
         },
         line: 1
@@ -2041,7 +2041,7 @@ function cov_97mgdr26a() {
           },
           end: {
             line: 1,
-            column: 2500
+            column: 2544
           }
         },
         line: 1
@@ -2065,7 +2065,7 @@ function cov_97mgdr26a() {
           },
           end: {
             line: 1,
-            column: 2497
+            column: 2541
           }
         },
         line: 1
@@ -2075,21 +2075,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 2509
+            column: 2553
           },
           end: {
             line: 1,
-            column: 2510
+            column: 2554
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 2513
+            column: 2557
           },
           end: {
             line: 1,
-            column: 2651
+            column: 2695
           }
         },
         line: 1
@@ -2099,21 +2099,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 2559
+            column: 2603
           },
           end: {
             line: 1,
-            column: 2560
+            column: 2604
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 2569
+            column: 2613
           },
           end: {
             line: 1,
-            column: 2603
+            column: 2647
           }
         },
         line: 1
@@ -2123,21 +2123,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 2613
+            column: 2657
           },
           end: {
             line: 1,
-            column: 2614
+            column: 2658
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 2624
+            column: 2668
           },
           end: {
             line: 1,
-            column: 2648
+            column: 2692
           }
         },
         line: 1
@@ -2147,21 +2147,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 2708
+            column: 2752
           },
           end: {
             line: 1,
-            column: 2709
+            column: 2753
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 2719
+            column: 2763
           },
           end: {
             line: 1,
-            column: 4180
+            column: 4224
           }
         },
         line: 1
@@ -2171,21 +2171,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 2894
+            column: 2938
           },
           end: {
             line: 1,
-            column: 2895
+            column: 2939
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 2907
+            column: 2951
           },
           end: {
             line: 1,
-            column: 2989
+            column: 3033
           }
         },
         line: 1
@@ -2195,21 +2195,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 3093
+            column: 3137
           },
           end: {
             line: 1,
-            column: 3094
+            column: 3138
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 3104
+            column: 3148
           },
           end: {
             line: 1,
-            column: 3583
+            column: 3627
           }
         },
         line: 1
@@ -2219,21 +2219,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 3121
+            column: 3165
           },
           end: {
             line: 1,
-            column: 3122
+            column: 3166
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 3132
+            column: 3176
           },
           end: {
             line: 1,
-            column: 3458
+            column: 3502
           }
         },
         line: 1
@@ -2243,21 +2243,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 4302
+            column: 4346
           },
           end: {
             line: 1,
-            column: 4303
+            column: 4347
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 4312
+            column: 4356
           },
           end: {
             line: 1,
-            column: 7590
+            column: 7634
           }
         },
         line: 1
@@ -2267,21 +2267,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 4570
+            column: 4614
           },
           end: {
             line: 1,
-            column: 4571
+            column: 4615
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 4583
+            column: 4627
           },
           end: {
             line: 1,
-            column: 4880
+            column: 4924
           }
         },
         line: 1
@@ -2291,21 +2291,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 4734
+            column: 4778
           },
           end: {
             line: 1,
-            column: 4735
+            column: 4779
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 4744
+            column: 4788
           },
           end: {
             line: 1,
-            column: 4852
+            column: 4896
           }
         },
         line: 1
@@ -2315,21 +2315,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 4762
+            column: 4806
           },
           end: {
             line: 1,
-            column: 4763
+            column: 4807
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 4773
+            column: 4817
           },
           end: {
             line: 1,
-            column: 4790
+            column: 4834
           }
         },
         line: 1
@@ -2339,21 +2339,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 4800
+            column: 4844
           },
           end: {
             line: 1,
-            column: 4801
+            column: 4845
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 4811
+            column: 4855
           },
           end: {
             line: 1,
-            column: 4849
+            column: 4893
           }
         },
         line: 1
@@ -2363,21 +2363,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 4909
+            column: 4953
           },
           end: {
             line: 1,
-            column: 4910
+            column: 4954
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 4920
+            column: 4964
           },
           end: {
             line: 1,
-            column: 5220
+            column: 5264
           }
         },
         line: 1
@@ -2387,21 +2387,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5020
+            column: 5064
           },
           end: {
             line: 1,
-            column: 5021
+            column: 5065
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5030
+            column: 5074
           },
           end: {
             line: 1,
-            column: 5092
+            column: 5136
           }
         },
         line: 1
@@ -2411,21 +2411,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5038
+            column: 5082
           },
           end: {
             line: 1,
-            column: 5039
+            column: 5083
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5051
+            column: 5095
           },
           end: {
             line: 1,
-            column: 5083
+            column: 5127
           }
         },
         line: 1
@@ -2435,21 +2435,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5111
+            column: 5155
           },
           end: {
             line: 1,
-            column: 5112
+            column: 5156
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5121
+            column: 5165
           },
           end: {
             line: 1,
-            column: 5144
+            column: 5188
           }
         },
         line: 1
@@ -2459,51 +2459,27 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5163
+            column: 5207
           },
           end: {
             line: 1,
-            column: 5164
+            column: 5208
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5173
+            column: 5217
           },
           end: {
             line: 1,
-            column: 5196
+            column: 5240
           }
         },
         line: 1
       },
       "40": {
         name: "D",
-        decl: {
-          start: {
-            line: 1,
-            column: 5230
-          },
-          end: {
-            line: 1,
-            column: 5231
-          }
-        },
-        loc: {
-          start: {
-            line: 1,
-            column: 5233
-          },
-          end: {
-            line: 1,
-            column: 5475
-          }
-        },
-        line: 1
-      },
-      "41": {
-        name: "e",
         decl: {
           start: {
             line: 1,
@@ -2517,11 +2493,35 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 5280
+            column: 5277
           },
           end: {
             line: 1,
-            column: 5448
+            column: 5519
+          }
+        },
+        line: 1
+      },
+      "41": {
+        name: "e",
+        decl: {
+          start: {
+            line: 1,
+            column: 5318
+          },
+          end: {
+            line: 1,
+            column: 5319
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 5324
+          },
+          end: {
+            line: 1,
+            column: 5492
           }
         },
         line: 1
@@ -2531,21 +2531,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5298
+            column: 5342
           },
           end: {
             line: 1,
-            column: 5299
+            column: 5343
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5309
+            column: 5353
           },
           end: {
             line: 1,
-            column: 5443
+            column: 5487
           }
         },
         line: 1
@@ -2555,35 +2555,11 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5484
+            column: 5528
           },
           end: {
             line: 1,
-            column: 5485
-          }
-        },
-        loc: {
-          start: {
-            line: 1,
-            column: 5494
-          },
-          end: {
-            line: 1,
-            column: 5526
-          }
-        },
-        line: 1
-      },
-      "44": {
-        name: "B",
-        decl: {
-          start: {
-            line: 1,
-            column: 5535
-          },
-          end: {
-            line: 1,
-            column: 5536
+            column: 5529
           }
         },
         loc: {
@@ -2593,13 +2569,13 @@ function cov_97mgdr26a() {
           },
           end: {
             line: 1,
-            column: 5837
+            column: 5570
           }
         },
         line: 1
       },
-      "45": {
-        name: "e",
+      "44": {
+        name: "B",
         decl: {
           start: {
             line: 1,
@@ -2613,11 +2589,35 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 5589
+            column: 5582
           },
           end: {
             line: 1,
-            column: 5810
+            column: 5881
+          }
+        },
+        line: 1
+      },
+      "45": {
+        name: "e",
+        decl: {
+          start: {
+            line: 1,
+            column: 5623
+          },
+          end: {
+            line: 1,
+            column: 5624
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 5633
+          },
+          end: {
+            line: 1,
+            column: 5854
           }
         },
         line: 1
@@ -2627,51 +2627,27 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5613
+            column: 5657
           },
           end: {
             line: 1,
-            column: 5614
+            column: 5658
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5624
+            column: 5668
           },
           end: {
             line: 1,
-            column: 5805
+            column: 5849
           }
         },
         line: 1
       },
       "47": {
-        name: "S",
-        decl: {
-          start: {
-            line: 1,
-            column: 5846
-          },
-          end: {
-            line: 1,
-            column: 5847
-          }
-        },
-        loc: {
-          start: {
-            line: 1,
-            column: 5849
-          },
-          end: {
-            line: 1,
-            column: 6087
-          }
-        },
-        line: 1
-      },
-      "48": {
-        name: "e",
+        name: "T",
         decl: {
           start: {
             line: 1,
@@ -2685,11 +2661,35 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 5896
+            column: 5893
           },
           end: {
             line: 1,
-            column: 6060
+            column: 6131
+          }
+        },
+        line: 1
+      },
+      "48": {
+        name: "e",
+        decl: {
+          start: {
+            line: 1,
+            column: 5934
+          },
+          end: {
+            line: 1,
+            column: 5935
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 5940
+          },
+          end: {
+            line: 1,
+            column: 6104
           }
         },
         line: 1
@@ -2699,21 +2699,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 5914
+            column: 5958
           },
           end: {
             line: 1,
-            column: 5915
+            column: 5959
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 5925
+            column: 5969
           },
           end: {
             line: 1,
-            column: 6055
+            column: 6099
           }
         },
         line: 1
@@ -2723,21 +2723,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 6468
+            column: 6512
           },
           end: {
             line: 1,
-            column: 6469
+            column: 6513
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 6481
+            column: 6525
           },
           end: {
             line: 1,
-            column: 6672
+            column: 6716
           }
         },
         line: 1
@@ -2747,21 +2747,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7000
+            column: 7044
           },
           end: {
             line: 1,
-            column: 7001
+            column: 7045
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7011
+            column: 7055
           },
           end: {
             line: 1,
-            column: 7037
+            column: 7081
           }
         },
         line: 1
@@ -2771,21 +2771,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7221
+            column: 7265
           },
           end: {
             line: 1,
-            column: 7222
+            column: 7266
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7231
+            column: 7275
           },
           end: {
             line: 1,
-            column: 7425
+            column: 7469
           }
         },
         line: 1
@@ -2795,21 +2795,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7259
+            column: 7303
           },
           end: {
             line: 1,
-            column: 7260
+            column: 7304
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7270
+            column: 7314
           },
           end: {
             line: 1,
-            column: 7288
+            column: 7332
           }
         },
         line: 1
@@ -2819,21 +2819,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7296
+            column: 7340
           },
           end: {
             line: 1,
-            column: 7297
+            column: 7341
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7307
+            column: 7351
           },
           end: {
             line: 1,
-            column: 7354
+            column: 7398
           }
         },
         line: 1
@@ -2843,21 +2843,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7364
+            column: 7408
           },
           end: {
             line: 1,
-            column: 7365
+            column: 7409
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7375
+            column: 7419
           },
           end: {
             line: 1,
-            column: 7422
+            column: 7466
           }
         },
         line: 1
@@ -2867,21 +2867,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7537
+            column: 7581
           },
           end: {
             line: 1,
-            column: 7538
+            column: 7582
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7550
+            column: 7594
           },
           end: {
             line: 1,
-            column: 7582
+            column: 7626
           }
         },
         line: 1
@@ -2891,21 +2891,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 7895
+            column: 7939
           },
           end: {
             line: 1,
-            column: 7896
+            column: 7940
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 7905
+            column: 7949
           },
           end: {
             line: 1,
-            column: 8009
+            column: 8053
           }
         },
         line: 1
@@ -2915,21 +2915,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 8012
+            column: 8056
           },
           end: {
             line: 1,
-            column: 8013
+            column: 8057
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 8023
+            column: 8067
           },
           end: {
             line: 1,
-            column: 8186
+            column: 8230
           }
         },
         line: 1
@@ -2939,21 +2939,21 @@ function cov_97mgdr26a() {
         decl: {
           start: {
             line: 1,
-            column: 8086
+            column: 8130
           },
           end: {
             line: 1,
-            column: 8087
+            column: 8131
           }
         },
         loc: {
           start: {
             line: 1,
-            column: 8097
+            column: 8141
           },
           end: {
             line: 1,
-            column: 8183
+            column: 8227
           }
         },
         line: 1
@@ -3393,31 +3393,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 2884
+            column: 2506
           },
           end: {
             line: 1,
-            column: 2991
+            column: 2538
           }
         },
-        type: "binary-expr",
+        type: "cond-expr",
         locations: [{
           start: {
             line: 1,
-            column: 2884
+            column: 2513
           },
           end: {
             line: 1,
-            column: 2885
+            column: 2523
           }
         }, {
           start: {
             line: 1,
-            column: 2887
+            column: 2524
           },
           end: {
             line: 1,
-            column: 2991
+            column: 2538
           }
         }],
         line: 1
@@ -3426,31 +3426,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 3462
+            column: 2928
           },
           end: {
             line: 1,
-            column: 3582
+            column: 3035
           }
         },
-        type: "cond-expr",
+        type: "binary-expr",
         locations: [{
           start: {
             line: 1,
-            column: 3471
+            column: 2928
           },
           end: {
             line: 1,
-            column: 3518
+            column: 2929
           }
         }, {
           start: {
             line: 1,
-            column: 3521
+            column: 2931
           },
           end: {
             line: 1,
-            column: 3581
+            column: 3035
           }
         }],
         line: 1
@@ -3459,31 +3459,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 4190
+            column: 3506
           },
           end: {
             line: 1,
-            column: 4298
+            column: 3626
           }
         },
-        type: "binary-expr",
+        type: "cond-expr",
         locations: [{
           start: {
             line: 1,
-            column: 4190
+            column: 3515
           },
           end: {
             line: 1,
-            column: 4191
+            column: 3562
           }
         }, {
           start: {
             line: 1,
-            column: 4194
+            column: 3565
           },
           end: {
             line: 1,
-            column: 4297
+            column: 3625
           }
         }],
         line: 1
@@ -3492,49 +3492,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 5317
+            column: 4234
           },
           end: {
             line: 1,
-            column: 5442
+            column: 4342
           }
         },
-        type: "switch",
+        type: "binary-expr",
         locations: [{
           start: {
             line: 1,
-            column: 5339
+            column: 4234
           },
           end: {
             line: 1,
-            column: 5373
+            column: 4235
           }
         }, {
           start: {
             line: 1,
-            column: 5373
+            column: 4238
           },
           end: {
             line: 1,
-            column: 5409
-          }
-        }, {
-          start: {
-            line: 1,
-            column: 5409
-          },
-          end: {
-            line: 1,
-            column: 5416
-          }
-        }, {
-          start: {
-            line: 1,
-            column: 5416
-          },
-          end: {
-            line: 1,
-            column: 5441
+            column: 4341
           }
         }],
         line: 1
@@ -3543,49 +3525,49 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 5632
+            column: 5361
           },
           end: {
             line: 1,
-            column: 5804
+            column: 5486
           }
         },
         type: "switch",
         locations: [{
           start: {
             line: 1,
-            column: 5654
+            column: 5383
           },
           end: {
             line: 1,
-            column: 5735
+            column: 5417
           }
         }, {
           start: {
             line: 1,
-            column: 5735
+            column: 5417
           },
           end: {
             line: 1,
-            column: 5771
+            column: 5453
           }
         }, {
           start: {
             line: 1,
-            column: 5771
+            column: 5453
           },
           end: {
             line: 1,
-            column: 5778
+            column: 5460
           }
         }, {
           start: {
             line: 1,
-            column: 5778
+            column: 5460
           },
           end: {
             line: 1,
-            column: 5803
+            column: 5485
           }
         }],
         line: 1
@@ -3594,49 +3576,49 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 5933
+            column: 5676
           },
           end: {
             line: 1,
-            column: 6054
+            column: 5848
           }
         },
         type: "switch",
         locations: [{
           start: {
             line: 1,
-            column: 5955
+            column: 5698
           },
           end: {
             line: 1,
-            column: 5985
+            column: 5779
           }
         }, {
           start: {
             line: 1,
-            column: 5985
+            column: 5779
           },
           end: {
             line: 1,
-            column: 6021
+            column: 5815
           }
         }, {
           start: {
             line: 1,
-            column: 6021
+            column: 5815
           },
           end: {
             line: 1,
-            column: 6028
+            column: 5822
           }
         }, {
           start: {
             line: 1,
-            column: 6028
+            column: 5822
           },
           end: {
             line: 1,
-            column: 6053
+            column: 5847
           }
         }],
         line: 1
@@ -3645,49 +3627,49 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 6482
+            column: 5977
           },
           end: {
             line: 1,
-            column: 6671
+            column: 6098
           }
         },
         type: "switch",
         locations: [{
           start: {
             line: 1,
-            column: 6497
+            column: 5999
           },
           end: {
             line: 1,
-            column: 6540
+            column: 6029
           }
         }, {
           start: {
             line: 1,
-            column: 6540
+            column: 6029
           },
           end: {
             line: 1,
-            column: 6588
+            column: 6065
           }
         }, {
           start: {
             line: 1,
-            column: 6588
+            column: 6065
           },
           end: {
             line: 1,
-            column: 6632
+            column: 6072
           }
         }, {
           start: {
             line: 1,
-            column: 6632
+            column: 6072
           },
           end: {
             line: 1,
-            column: 6670
+            column: 6097
           }
         }],
         line: 1
@@ -3696,31 +3678,49 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7169
+            column: 6526
           },
           end: {
             line: 1,
-            column: 7220
+            column: 6715
           }
         },
-        type: "binary-expr",
+        type: "switch",
         locations: [{
           start: {
             line: 1,
-            column: 7169
+            column: 6541
           },
           end: {
             line: 1,
-            column: 7170
+            column: 6584
           }
         }, {
           start: {
             line: 1,
-            column: 7172
+            column: 6584
           },
           end: {
             line: 1,
-            column: 7220
+            column: 6632
+          }
+        }, {
+          start: {
+            line: 1,
+            column: 6632
+          },
+          end: {
+            line: 1,
+            column: 6676
+          }
+        }, {
+          start: {
+            line: 1,
+            column: 6676
+          },
+          end: {
+            line: 1,
+            column: 6714
           }
         }],
         line: 1
@@ -3729,31 +3729,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7232
+            column: 7213
           },
           end: {
             line: 1,
-            column: 7424
+            column: 7264
           }
         },
-        type: "if",
+        type: "binary-expr",
         locations: [{
           start: {
             line: 1,
-            column: 7232
+            column: 7213
           },
           end: {
             line: 1,
-            column: 7424
+            column: 7214
           }
         }, {
           start: {
             line: 1,
-            column: 7232
+            column: 7216
           },
           end: {
             line: 1,
-            column: 7424
+            column: 7264
           }
         }],
         line: 1
@@ -3762,31 +3762,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7244
+            column: 7276
           },
           end: {
             line: 1,
-            column: 7424
+            column: 7468
           }
         },
-        type: "cond-expr",
+        type: "if",
         locations: [{
           start: {
             line: 1,
-            column: 7249
+            column: 7276
           },
           end: {
             line: 1,
-            column: 7356
+            column: 7468
           }
         }, {
           start: {
             line: 1,
-            column: 7357
+            column: 7276
           },
           end: {
             line: 1,
-            column: 7424
+            column: 7468
           }
         }],
         line: 1
@@ -3795,31 +3795,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7314
+            column: 7288
           },
           end: {
             line: 1,
-            column: 7353
+            column: 7468
           }
         },
         type: "cond-expr",
         locations: [{
           start: {
             line: 1,
-            column: 7342
+            column: 7293
           },
           end: {
             line: 1,
-            column: 7346
+            column: 7400
           }
         }, {
           start: {
             line: 1,
-            column: 7347
+            column: 7401
           },
           end: {
             line: 1,
-            column: 7353
+            column: 7468
           }
         }],
         line: 1
@@ -3828,31 +3828,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7314
+            column: 7358
           },
           end: {
             line: 1,
-            column: 7341
+            column: 7397
           }
         },
-        type: "binary-expr",
+        type: "cond-expr",
         locations: [{
           start: {
             line: 1,
-            column: 7314
+            column: 7386
           },
           end: {
             line: 1,
-            column: 7320
+            column: 7390
           }
         }, {
           start: {
             line: 1,
-            column: 7322
+            column: 7391
           },
           end: {
             line: 1,
-            column: 7341
+            column: 7397
           }
         }],
         line: 1
@@ -3861,31 +3861,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7382
+            column: 7358
           },
           end: {
             line: 1,
-            column: 7421
+            column: 7385
           }
         },
-        type: "cond-expr",
+        type: "binary-expr",
         locations: [{
           start: {
             line: 1,
-            column: 7410
+            column: 7358
           },
           end: {
             line: 1,
-            column: 7414
+            column: 7364
           }
         }, {
           start: {
             line: 1,
-            column: 7415
+            column: 7366
           },
           end: {
             line: 1,
-            column: 7421
+            column: 7385
           }
         }],
         line: 1
@@ -3894,31 +3894,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7382
+            column: 7426
           },
           end: {
             line: 1,
-            column: 7409
+            column: 7465
           }
         },
-        type: "binary-expr",
+        type: "cond-expr",
         locations: [{
           start: {
             line: 1,
-            column: 7382
+            column: 7454
           },
           end: {
             line: 1,
-            column: 7388
+            column: 7458
           }
         }, {
           start: {
             line: 1,
-            column: 7390
+            column: 7459
           },
           end: {
             line: 1,
-            column: 7409
+            column: 7465
           }
         }],
         line: 1
@@ -3927,31 +3927,31 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 7604
+            column: 7426
           },
           end: {
             line: 1,
-            column: 7891
+            column: 7453
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
             line: 1,
-            column: 7604
+            column: 7426
           },
           end: {
             line: 1,
-            column: 7605
+            column: 7432
           }
         }, {
           start: {
             line: 1,
-            column: 7608
+            column: 7434
           },
           end: {
             line: 1,
-            column: 7890
+            column: 7453
           }
         }],
         line: 1
@@ -3960,40 +3960,73 @@ function cov_97mgdr26a() {
         loc: {
           start: {
             line: 1,
-            column: 8024
+            column: 7648
           },
           end: {
             line: 1,
-            column: 8185
+            column: 7935
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
             line: 1,
-            column: 8024
+            column: 7648
           },
           end: {
             line: 1,
-            column: 8025
+            column: 7649
           }
         }, {
           start: {
             line: 1,
-            column: 8027
+            column: 7652
           },
           end: {
             line: 1,
-            column: 8048
+            column: 7934
+          }
+        }],
+        line: 1
+      },
+      "29": {
+        loc: {
+          start: {
+            line: 1,
+            column: 8068
+          },
+          end: {
+            line: 1,
+            column: 8229
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 1,
+            column: 8068
+          },
+          end: {
+            line: 1,
+            column: 8069
           }
         }, {
           start: {
             line: 1,
-            column: 8050
+            column: 8071
           },
           end: {
             line: 1,
-            column: 8185
+            column: 8092
+          }
+        }, {
+          start: {
+            line: 1,
+            column: 8094
+          },
+          end: {
+            line: 1,
+            column: 8229
           }
         }],
         line: 1
@@ -4231,11 +4264,11 @@ function cov_97mgdr26a() {
       "13": [0, 0],
       "14": [0, 0],
       "15": [0, 0],
-      "16": [0, 0, 0, 0],
+      "16": [0, 0],
       "17": [0, 0, 0, 0],
       "18": [0, 0, 0, 0],
       "19": [0, 0, 0, 0],
-      "20": [0, 0],
+      "20": [0, 0, 0, 0],
       "21": [0, 0],
       "22": [0, 0],
       "23": [0, 0],
@@ -4243,19 +4276,20 @@ function cov_97mgdr26a() {
       "25": [0, 0],
       "26": [0, 0],
       "27": [0, 0],
-      "28": [0, 0, 0]
+      "28": [0, 0],
+      "29": [0, 0, 0]
     },
     inputSourceMap: {
       version: 3,
       sources: ["components/ToDoItem.tsx", "helpers/mockFunctions.ts", "components/NewItemForm.tsx", "components/List.tsx", "App.tsx", "reportWebVitals.ts", "index.tsx"],
       names: ["RemoveButton", "st", "Button", "Title", "styled", "h2", "Note", "p", "DoneButton", "BackButton", "Div", "div", "props", "isDone", "DeadlineDate", "diffinH", "ToDoItem", "date1", "Date", "Difference_In_Time", "date", "getTime", "Difference_In_Days", "Math", "floor", "Difference_In_Hours", "round", "className", "done", "Container", "title", "note", "onClick", "onDelButtonClick", "onBackButtonClick", "onDoneButtonClick", "postData", "url", "data", "axios", "post", "then", "console", "log", "putData", "put", "deleteData", "delete", "method", "catch", "err", "message", "NewItemForm", "useForm", "register", "handleSubmit", "reset", "useState", "errMessage", "setMessage", "map", "index", "onSubmit", "response", "JoiSchema", "Joi", "object", "string", "required", "max", "allow", "optional", "alternatives", "conditional", "is", "otherwise", "greater", "boolean", "options", "abortEarly", "validate", "validateData", "error", "details", "formFun", "Input", "type", "placeholder", "TextareaAutosize", "maxRows", "value", "disableUnderline", "h1", "List", "randomBytes", "dataChange", "setData", "filter", "setFilter", "input", "setInput", "itemUrl", "process", "loading", "setLoading", "useEffect", "get", "res", "useFetchGET", "items", "mapRender", "item", "id", "handleDelete", "changeDone", "newItem", "ToggleButtonGroup", "exclusive", "onChange", "event", "color", "ToggleButton", "target", "includes", "renderedItems", "Header", "header", "App", "reportWebVitals", "onPerfEntry", "Function", "getCLS", "getFID", "getFCP", "getLCP", "getTTFB", "ReactDOM", "render", "StrictMode", "document", "getElementById"],
-      mappings: "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",
-      file: "static/js/main.ef0d3833.chunk.js",
-      sourcesContent: ["import { Container, Button } from \"@mui/material\";\r\nimport styled from \"styled-components\";\r\nimport st from \"@mui/material/styles/styled\";\r\nimport { MouseEventHandler } from 'react'\r\nimport { Item } from \"../helpers/mockFunctions\";\r\n\r\n\r\nconst RemoveButton = st(Button)`\r\n  color: #c70000;\r\n  background-color:#e38f8f ;\r\n  `;\r\n\r\n\r\nconst Title = styled.h2`\r\n    text-align: left;\r\n    color: #d44d2f;\r\n    font-weight: 700;\r\n    font-size:1.2rem\r\n  `;\r\nconst Note = styled.p`\r\n    text-align: left;\r\n    font-size: 1rem;\r\n    color: #8a8a8a;\r\n  `;\r\nconst DoneButton = st(Button)`\r\n  background-color: lightgreen;\r\n  `;\r\n\r\nconst BackButton = st(Button)`\r\n  background-color: lightblue;\r\n  `;\r\n\r\n\r\n\r\n\r\ntype Props = { isDone: boolean };\r\ntype DiffProbe = { diffinH: number };\r\n\r\nconst Div = styled.div`\r\n  width:100%;\r\n  display:flex;\r\n  background-color: ${(props: Props) => props.isDone === true ? \"#f1dbff\" : \"white\"};\r\n  border-top-left-radius: 0.375rem;\r\n  border-bottom-left-radius  0.375rem;\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  margin:0;\r\n`;\r\n\r\nconst DeadlineDate = styled.p`\r\ncolor: ${(props: DiffProbe) =>\r\n    props.diffinH < 48 ? \"rgb(150,\" + 255 / 48 * props.diffinH + \",0)\" : \"green\"\r\n  };\r\nwidth: 50 %;\r\ntext-align: right;\r\nfont-size: 0.9rem;\r\n`;\r\n\r\ninterface ThisItem extends Item {\r\n  onDelButtonClick: MouseEventHandler<HTMLButtonElement>,\r\n  onBackButtonClick: MouseEventHandler<HTMLButtonElement>,\r\n  onDoneButtonClick: MouseEventHandler<HTMLButtonElement>\r\n}\r\n\r\n\r\n\r\n\r\nconst ToDoItem: React.FC<ThisItem> = (props) => {\r\n  const date1 = new Date();\r\n  const date2 = new Date(props.date);\r\n\r\n  // To calculate the time difference of two dates\r\n  const Difference_In_Time = date2.getTime() - date1.getTime();\r\n\r\n  // To calculate the no. of days between two dates\r\n\r\n  const Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));\r\n  const Difference_In_Hours = Math.round(Difference_In_Time / (1000 * 3600));\r\n\r\n\r\n  return (\r\n    <div className=\"flex bg-white rounded-md my-4 filter drop-shadow-xl\">\r\n      <Div isDone={props.done}>\r\n        <div className=\"w-full flex-row\">\r\n          <Container>\r\n            <Title>{props.title}</Title>\r\n            <Note>{props.note}</Note>\r\n            <DeadlineDate diffinH={Difference_In_Hours}>\r\n              {props.date && `${Difference_In_Days > 0 ? Difference_In_Days + \"d\" : \" \"}` + (Difference_In_Hours - (24 * Difference_In_Days)) + \"h\"}\r\n            </DeadlineDate>\r\n          </Container>\r\n\r\n        </div>\r\n        <div className=\"flex flex-col\">\r\n          <RemoveButton onClick={props.onDelButtonClick}>X</RemoveButton>\r\n          {props.done ? (\r\n            <BackButton onClick={props.onBackButtonClick}>{\">\"}</BackButton>\r\n          ) : (\r\n            <DoneButton onClick={props.onDoneButtonClick}>O</DoneButton>\r\n          )}\r\n        </div>\r\n      </Div>\r\n    </div >\r\n  );\r\n}\r\n\r\nexport default ToDoItem;", "import axios from \"axios\";\r\nimport { useEffect, useState } from \"react\";\r\n\r\nexport interface Item {\r\n  title: string;\r\n  note: string;\r\n  date: Date | string;\r\n  done: boolean;\r\n  id: number;\r\n}\r\n\r\nexport function useFetchGET(url: string, dataChange: Buffer) {\r\n  const [data, setData] = useState([{}]);\r\n  const [loading, setLoading] = useState(true);\r\n\r\n  useEffect(() => {\r\n    axios\r\n      .get(url)\r\n      .then((res) => {\r\n        setData(res.data);\r\n        setLoading(false);\r\n      })\r\n      .catch((err) => {\r\n        setLoading(false);\r\n        console.log(\"ERROR\" + err.message);\r\n      });\r\n  }, [url, dataChange]);\r\n  return { data, loading };\r\n}\r\n\r\nexport function postData(url: string, data: Item) {\r\n  return axios.post(url, data).then(() => {\r\n    console.log(\"new ToDo item created\");\r\n  });\r\n}\r\n\r\nexport function putData(url: string, data: Item) {\r\n  return axios.put(url, data).then(() => {\r\n    console.log(\"ToDo item changed\" + data.done ? \" to DONE\" : \" to not DONE\");\r\n  });\r\n}\r\n\r\nexport function deleteData(url: string) {\r\n  return axios\r\n    .delete(url, {\r\n      method: \"DELETE\",\r\n    })\r\n    .then(() => {\r\n      console.log(\"ToDo item deleted\");\r\n    })\r\n    .catch((err) => {\r\n      console.log(err.message);\r\n    });\r\n}\r\n", "import { TextareaAutosize } from \"@mui/core\";\r\nimport { Input } from \"@mui/material\";\r\nimport Joi from \"joi\";\r\nimport { useState } from \"react\";\r\nimport { useForm } from \"react-hook-form\";\r\nimport { postData, Item } from \"../helpers/mockFunctions\";\r\n\r\n\r\ninterface Url {\r\n    url: string,\r\n    formFun: any\r\n}\r\nfunction validateData(data: Item) {\r\n    const JoiSchema = Joi.object({\r\n        title: Joi.string().required().max(25),\r\n        note: Joi.string().allow(\"\").max(100).optional(),\r\n        date: Joi.alternatives().conditional('date', { is: \"\", then: Joi.string().allow(\"\"), otherwise: Joi.date().greater('now') }).optional(),\r\n        done: Joi.boolean()\r\n    }).options({ abortEarly: false });\r\n    console.log(JoiSchema.validate(data))\r\n    return JoiSchema.validate(data)\r\n}\r\n\r\n\r\nconst NewItemForm: React.FC<Url> = (props) => {\r\n    const { register, handleSubmit, reset } = useForm();\r\n    const [errMessage, setMessage] = useState([{}]);\r\n\r\n    function onSubmit(data: Item) {\r\n        data.done = false;\r\n        // data validation and posting\r\n        let response = validateData(data)\r\n        if (response.error) {\r\n            console.log(response.error.details)\r\n            setMessage(response.error.details)\r\n        }\r\n        else {\r\n            console.log(\"Data Validated\")\r\n            setMessage([{}])\r\n\r\n            props.formFun(props.url, data);\r\n            reset();\r\n\r\n        }\r\n    };\r\n    return (\r\n        <>\r\n            {errMessage && errMessage.map((message: any, index) => {\r\n                return (< p className=\"text-red-500\" key={index} > {message.message}</p>)\r\n            })\r\n            }\r\n            <form\r\n                className=\"flex text-black rounded-b-xl m-2 flex-col bg-gray-300\"\r\n                onSubmit={handleSubmit(onSubmit)}\r\n            >\r\n\r\n                <Input\r\n                    {...register(\"title\", { required: true })}\r\n                    type=\"text\"\r\n                    placeholder=\"Title\"\r\n                />\r\n                <TextareaAutosize\r\n                    {...register(\"note\")}\r\n                    className=\"text-base\"\r\n                    placeholder=\"write notes\"\r\n                    maxRows={3}\r\n                />\r\n                <div className=\"flex flex-row\">\r\n                    <label className=\"text-base pr-4 text-gray-500\">Deadline: </label>\r\n                    <Input type=\"datetime-local\" {...register(\"date\")} />\r\n                </div>\r\n                <Input\r\n                    className=\"bg-white rounded-b-xl hover:bg-gray-200\"\r\n                    type=\"submit\"\r\n                    value=\"Create ToDo Item\"\r\n                    disableUnderline={true}\r\n                />\r\n            </form>\r\n        </>);\r\n}\r\n\r\n\r\nexport default NewItemForm;", "import { ToggleButtonGroup, Input, ToggleButton } from \"@mui/material\";\r\nimport styled from \"styled-components\";\r\nimport ToDoItem from \"./ToDoItem\";\r\nimport { useFetchGET, putData, Item, postData } from \"../helpers/mockFunctions\";\r\nimport React, { useState } from \"react\";\r\nimport { deleteData } from \"../helpers/mockFunctions\";\r\nimport { randomBytes } from \"crypto\";\r\nimport NewItemForm from \"./NewItemForm\";\r\nimport { createLogicalAnd } from \"typescript\";\r\n\r\n\r\n\r\n\r\n//styled components\r\nconst Title = styled.h1`\r\nfont-size: 1.2em;\r\ntext-align: center;\r\ncolor: palevioletred;\r\nfont-weight: 900;\r\n`;\r\n\r\n\r\n\r\nconst List: React.FC = () => {\r\n  const [dataChange, setData] = useState(randomBytes(16));\r\n  const [filter, setFilter] = useState(-1);\r\n  const [input, setInput] = useState(\"\");\r\n\r\n  // geting data from mockapi.io using custom hook\r\n  const itemUrl = process.env.REACT_APP_API_URL + '/items'\r\n  const { data: items, loading } = useFetchGET(\r\n    itemUrl,\r\n    dataChange\r\n  );\r\n\r\n  const mapRender = (item: any) => {\r\n    return (\r\n      <ToDoItem\r\n        title={item.title}\r\n        note={item.note}\r\n        date={item.date}\r\n        done={item.done}\r\n        id={item.id}\r\n        key={`item-${item.id}`}\r\n        onDelButtonClick={() =>\r\n          handleDelete(itemUrl, item.id)\r\n        }\r\n        onBackButtonClick={() =>\r\n          changeDone(itemUrl, item.id, item, false)\r\n        }\r\n        onDoneButtonClick={() =>\r\n          changeDone(itemUrl, item.id, item, true)\r\n        }\r\n      />\r\n    )\r\n  };\r\n  const renderedItems = () => {\r\n    if (items)\r\n      if (filter >= 0) {\r\n        return items.filter((item: any) => item.done == filter).map((item: any) => {\r\n          if (input !== \"\") {\r\n            if (item.title.includes(input))\r\n              return mapRender(item)\r\n          }\r\n          else\r\n            return mapRender(item)\r\n        })\r\n      }\r\n      else\r\n        return items.map((item: any) => {\r\n          if (input !== \"\") {\r\n            if (item.title.includes(input))\r\n              return mapRender(item)\r\n          }\r\n          else\r\n            return mapRender(item)\r\n        })\r\n  }\r\n\r\n\r\n\r\n\r\n  // posting data to mockapi.io\r\n\r\n  const handleFilter = (\r\n    event: React.MouseEvent<HTMLElement>,\r\n    value: number\r\n  ) => {\r\n    setFilter(value);\r\n    switch (value) {\r\n      case -1: console.log(\"[All] selected\");\r\n        break;\r\n      case 0: console.log(\"[not Done] selected\");\r\n        break;\r\n      case 1: console.log(\"[Done] selected\");\r\n        break;\r\n      default: console.log(\"Wrong selection\");\r\n        break;\r\n    }\r\n  };\r\n\r\n\r\n\r\n  async function handleDelete(url: string, id: number) {\r\n    await deleteData(url + \"/\" + id);\r\n    setData(randomBytes(16))\r\n\r\n  }\r\n  async function changeDone(url: string, id: number, item: Item, done: boolean) {\r\n    let newItem = { ...item, done: done };\r\n    await putData(url + \"/\" + id, newItem)\r\n    setData(randomBytes(16))\r\n  }\r\n  async function handlePost(url: string, data: Item) {\r\n    await postData(url, data);\r\n    setData(randomBytes(16))\r\n  }\r\n\r\n  return (\r\n\r\n    <div className=\"bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg\">\r\n      <div className=\"bg-red-100 rounded-t-xl\">\r\n        <Title>ToDo Zoznam</Title>\r\n      </div>\r\n      <div className=\"bg-white flex flex-row text-gray-400  items-center\">\r\n        <ToggleButtonGroup\r\n          value={filter}\r\n          exclusive\r\n          onChange={handleFilter}\r\n          color=\"primary\"\r\n          aria-label=\"filter items\"\r\n        >\r\n          <ToggleButton value={-1}>All</ToggleButton>\r\n          <ToggleButton value={1}>Done</ToggleButton>\r\n          <ToggleButton value={0}>not Done</ToggleButton>\r\n        </ToggleButtonGroup>\r\n        <div className=\"flex-1 p-2 w-full\">\r\n          <Input\r\n            type=\"search\"\r\n            placeholder=\"Search\"\r\n            value={input}\r\n            onChange={(event) => setInput(event.target.value)}\r\n          />\r\n        </div>\r\n      </div>\r\n      <div className=\"bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll\">\r\n        {loading && <p>Loading data ...</p>}\r\n        {renderedItems()}\r\n        <p>Add new ToDo</p>\r\n      </div>\r\n      <div>\r\n        <NewItemForm url={itemUrl} formFun={handlePost} />\r\n      </div>\r\n    </div >\r\n  );\r\n}\r\n// state handlers\r\n//TODO could be inproved using Redux\r\n\r\n\r\nexport default List;", "\r\n\r\nimport React from \"react\";\r\nimport styled from \"styled-components\";\r\nimport List from \"./components/List\";\r\n\r\nconst Header = styled.header`\r\nbackground-image: linear-gradient(\r\n  to bottom right,\r\n  rgb(206, 104, 104),\r\n  rgb(243, 243, 116)\r\n);\r\nmin-height: 100vh;\r\ndisplay: flex;\r\nflex-direction: column;\r\nalign-items: center;\r\njustify-content: center;\r\nfont-size: calc(10px + 2vmin);\r\ncolor: white;\r\n`;\r\n\r\nconst App: React.FC = () => {\r\n\r\n\r\n  return (\r\n    <div className=\"App\">\r\n      <Header>\r\n        <List />\r\n      </Header>\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default App;\r\n", "import { ReportHandler } from 'web-vitals'\r\n\r\nconst reportWebVitals = (onPerfEntry?: ReportHandler) => {\r\n  if (onPerfEntry && onPerfEntry instanceof Function) {\r\n    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {\r\n      getCLS(onPerfEntry)\r\n      getFID(onPerfEntry)\r\n      getFCP(onPerfEntry)\r\n      getLCP(onPerfEntry)\r\n      getTTFB(onPerfEntry)\r\n    })\r\n  }\r\n}\r\n\r\nexport default reportWebVitals\r\n", "import React from \"react\";\nimport ReactDOM from \"react-dom\";\nimport \"./index.css\";\nimport App from \"./App\";\nimport reportWebVitals from \"./reportWebVitals\";\n\nReactDOM.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>,\n  document.getElementById(\"root\")\n);\n\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\nreportWebVitals();\n"],
+      mappings: "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",
+      file: "static/js/main.b817af2b.chunk.js",
+      sourcesContent: ["import { Container, Button } from \"@mui/material\";\r\nimport styled from \"styled-components\";\r\nimport st from \"@mui/material/styles/styled\";\r\nimport { MouseEventHandler } from 'react'\r\nimport { Item } from \"../helpers/mockFunctions\";\r\n\r\n\r\nconst RemoveButton = st(Button)`\r\n  color: #c70000;\r\n  background-color:#e38f8f ;\r\n  `;\r\n\r\n\r\nconst Title = styled.h2`\r\n    text-align: left;\r\n    color: #d44d2f;\r\n    font-weight: 700;\r\n    font-size:1.2rem\r\n  `;\r\nconst Note = styled.p`\r\n    text-align: left;\r\n    font-size: 1rem;\r\n    color: #8a8a8a;\r\n  `;\r\nconst DoneButton = st(Button)`\r\n  background-color: lightgreen;\r\n  `;\r\n\r\nconst BackButton = st(Button)`\r\n  background-color: lightblue;\r\n  `;\r\n\r\n\r\n\r\n\r\ntype Props = { isDone: boolean };\r\ntype DiffProbe = { diffinH: number };\r\n\r\nconst Div = styled.div`\r\n  width:100%;\r\n  display:flex;\r\n  background-color: ${(props: Props) => props.isDone === true ? \"#f1dbff\" : \"white\"};\r\n  border-top-left-radius: 0.375rem;\r\n  border-bottom-left-radius  0.375rem;\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n  margin:0;\r\n`;\r\n\r\nconst DeadlineDate = styled.p`\r\ncolor: ${(props: DiffProbe) =>\r\n    props.diffinH < 48 ? \"rgb(150,\" + 255 / 48 * props.diffinH + \",0)\" : \"green\"\r\n  };\r\nwidth: 50 %;\r\ntext-align: right;\r\nfont-size: 0.9rem;\r\n`;\r\n\r\ninterface ThisItem extends Item {\r\n  onDelButtonClick: MouseEventHandler<HTMLButtonElement>,\r\n  onBackButtonClick: MouseEventHandler<HTMLButtonElement>,\r\n  onDoneButtonClick: MouseEventHandler<HTMLButtonElement>\r\n}\r\n\r\n\r\n\r\n\r\nconst ToDoItem: React.FC<ThisItem> = (props) => {\r\n  const date1 = new Date();\r\n  const date2 = new Date(props.date);\r\n\r\n  // To calculate the time difference of two dates\r\n  const Difference_In_Time = date2.getTime() - date1.getTime();\r\n\r\n  // To calculate the no. of days between two dates\r\n\r\n  const Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));\r\n  const Difference_In_Hours = Math.round(Difference_In_Time / (1000 * 3600));\r\n\r\n\r\n  return (\r\n    <div className=\"flex bg-white rounded-md my-4 filter drop-shadow-xl\">\r\n      <Div isDone={props.done}>\r\n        <div className=\"w-full flex-row\">\r\n          <Container>\r\n            <Title>{props.title}</Title>\r\n            <Note>{props.note}</Note>\r\n            <DeadlineDate diffinH={Difference_In_Hours}>\r\n              {props.date && `${Difference_In_Days > 0 ? Difference_In_Days + \"d\" : \" \"}` + (Difference_In_Hours - (24 * Difference_In_Days)) + \"h\"}\r\n            </DeadlineDate>\r\n          </Container>\r\n\r\n        </div>\r\n        <div className=\"flex flex-col\">\r\n          <RemoveButton onClick={props.onDelButtonClick}>X</RemoveButton>\r\n          {props.done ? (\r\n            <BackButton onClick={props.onBackButtonClick}>{\">\"}</BackButton>\r\n          ) : (\r\n            <DoneButton onClick={props.onDoneButtonClick}>O</DoneButton>\r\n          )}\r\n        </div>\r\n      </Div>\r\n    </div >\r\n  );\r\n}\r\n\r\nexport default ToDoItem;", "import axios from \"axios\";\r\nimport { useEffect, useState } from \"react\";\r\n\r\nexport interface Item {\r\n  title: string;\r\n  note: string;\r\n  date: Date | string;\r\n  done: boolean;\r\n  id: number;\r\n}\r\n\r\nexport function useFetchGET(url: string, dataChange: Buffer) {\r\n  const [data, setData] = useState([{}]);\r\n  const [loading, setLoading] = useState(true);\r\n\r\n  useEffect(() => {\r\n    axios\r\n      .get(url)\r\n      .then((res) => {\r\n        setData(res.data);\r\n        setLoading(false);\r\n      })\r\n      .catch((err) => {\r\n        setLoading(false);\r\n        console.log(\"ERROR\" + err.message);\r\n      });\r\n  }, [url, dataChange]);\r\n  return { data, loading };\r\n}\r\n\r\nexport function postData(url: string, data: Item) {\r\n  return axios.post(url, data).then(() => {\r\n    console.log(\"new ToDo item created\");\r\n  });\r\n}\r\n\r\nexport function putData(url: string, data: Item) {\r\n  return axios.put(url, data).then(() => {\r\n    console.log(\r\n      \"ToDo item changed\" + (data.done ? \" to DONE\" : \" to not DONE\")\r\n    );\r\n  });\r\n}\r\n\r\nexport function deleteData(url: string) {\r\n  return axios\r\n    .delete(url, {\r\n      method: \"DELETE\",\r\n    })\r\n    .then(() => {\r\n      console.log(\"ToDo item deleted\");\r\n    })\r\n    .catch((err) => {\r\n      console.log(err.message);\r\n    });\r\n}\r\n", "import { TextareaAutosize } from \"@mui/core\";\r\nimport { Input } from \"@mui/material\";\r\nimport Joi from \"joi\";\r\nimport { useState } from \"react\";\r\nimport { useForm } from \"react-hook-form\";\r\nimport { postData, Item } from \"../helpers/mockFunctions\";\r\n\r\n\r\ninterface Url {\r\n    url: string,\r\n    formFun: any\r\n}\r\nfunction validateData(data: Item) {\r\n    const JoiSchema = Joi.object({\r\n        title: Joi.string().required().max(25),\r\n        note: Joi.string().allow(\"\").max(100).optional(),\r\n        date: Joi.alternatives().conditional('date', { is: \"\", then: Joi.string().allow(\"\"), otherwise: Joi.date().greater('now') }).optional(),\r\n        done: Joi.boolean()\r\n    }).options({ abortEarly: false });\r\n    console.log(JoiSchema.validate(data))\r\n    return JoiSchema.validate(data)\r\n}\r\n\r\n\r\nconst NewItemForm: React.FC<Url> = (props) => {\r\n    const { register, handleSubmit, reset } = useForm();\r\n    const [errMessage, setMessage] = useState([{}]);\r\n\r\n    function onSubmit(data: Item) {\r\n        data.done = false;\r\n        // data validation and posting\r\n        let response = validateData(data)\r\n        if (response.error) {\r\n            console.log(response.error.details)\r\n            setMessage(response.error.details)\r\n        }\r\n        else {\r\n            console.log(\"Data Validated\")\r\n            setMessage([{}])\r\n\r\n            props.formFun(props.url, data);\r\n            reset();\r\n\r\n        }\r\n    };\r\n    return (\r\n        <>\r\n            {errMessage && errMessage.map((message: any, index) => {\r\n                return (< p className=\"text-red-500\" key={index} > {message.message}</p>)\r\n            })\r\n            }\r\n            <form\r\n                className=\"flex text-black rounded-b-xl m-2 flex-col bg-gray-300\"\r\n                onSubmit={handleSubmit(onSubmit)}\r\n            >\r\n\r\n                <Input\r\n                    {...register(\"title\", { required: true })}\r\n                    type=\"text\"\r\n                    placeholder=\"Title\"\r\n                />\r\n                <TextareaAutosize\r\n                    {...register(\"note\")}\r\n                    className=\"text-base\"\r\n                    placeholder=\"write notes\"\r\n                    maxRows={3}\r\n                />\r\n                <div className=\"flex flex-row\">\r\n                    <label className=\"text-base pr-4 text-gray-500\">Deadline: </label>\r\n                    <Input type=\"datetime-local\" {...register(\"date\")} />\r\n                </div>\r\n                <Input\r\n                    className=\"bg-white rounded-b-xl hover:bg-gray-200\"\r\n                    type=\"submit\"\r\n                    value=\"Create ToDo Item\"\r\n                    disableUnderline={true}\r\n                />\r\n            </form>\r\n        </>);\r\n}\r\n\r\n\r\nexport default NewItemForm;", "import { ToggleButtonGroup, Input, ToggleButton } from \"@mui/material\";\r\nimport styled from \"styled-components\";\r\nimport ToDoItem from \"./ToDoItem\";\r\nimport { useFetchGET, putData, Item, postData } from \"../helpers/mockFunctions\";\r\nimport React, { useState } from \"react\";\r\nimport { deleteData } from \"../helpers/mockFunctions\";\r\nimport { randomBytes } from \"crypto\";\r\nimport NewItemForm from \"./NewItemForm\";\r\nimport { createLogicalAnd } from \"typescript\";\r\n\r\n\r\n\r\n\r\n//styled components\r\nconst Title = styled.h1`\r\nfont-size: 1.2em;\r\ntext-align: center;\r\ncolor: palevioletred;\r\nfont-weight: 900;\r\n`;\r\n\r\n\r\n\r\nconst List: React.FC = () => {\r\n  const [dataChange, setData] = useState(randomBytes(16));\r\n  const [filter, setFilter] = useState(-1);\r\n  const [input, setInput] = useState(\"\");\r\n\r\n  // geting data from mockapi.io using custom hook\r\n  const itemUrl = process.env.REACT_APP_API_URL + '/items'\r\n  const { data: items, loading } = useFetchGET(\r\n    itemUrl,\r\n    dataChange\r\n  );\r\n\r\n  const mapRender = (item: any) => {\r\n    return (\r\n      <ToDoItem\r\n        title={item.title}\r\n        note={item.note}\r\n        date={item.date}\r\n        done={item.done}\r\n        id={item.id}\r\n        key={`item-${item.id}`}\r\n        onDelButtonClick={() =>\r\n          handleDelete(itemUrl, item.id)\r\n        }\r\n        onBackButtonClick={() =>\r\n          changeDone(itemUrl, item.id, item, false)\r\n        }\r\n        onDoneButtonClick={() =>\r\n          changeDone(itemUrl, item.id, item, true)\r\n        }\r\n      />\r\n    )\r\n  };\r\n  const renderedItems = () => {\r\n    if (items)\r\n      if (filter >= 0) {\r\n        return items.filter((item: any) => item.done == filter).map((item: any) => {\r\n          if (input !== \"\") {\r\n            if (item.title.includes(input))\r\n              return mapRender(item)\r\n          }\r\n          else\r\n            return mapRender(item)\r\n        })\r\n      }\r\n      else\r\n        return items.map((item: any) => {\r\n          if (input !== \"\") {\r\n            if (item.title.includes(input))\r\n              return mapRender(item)\r\n          }\r\n          else\r\n            return mapRender(item)\r\n        })\r\n  }\r\n\r\n\r\n\r\n\r\n  // posting data to mockapi.io\r\n\r\n  const handleFilter = (\r\n    event: React.MouseEvent<HTMLElement>,\r\n    value: number\r\n  ) => {\r\n    setFilter(value);\r\n    switch (value) {\r\n      case -1: console.log(\"[All] selected\");\r\n        break;\r\n      case 0: console.log(\"[not Done] selected\");\r\n        break;\r\n      case 1: console.log(\"[Done] selected\");\r\n        break;\r\n      default: console.log(\"Wrong selection\");\r\n        break;\r\n    }\r\n  };\r\n\r\n\r\n\r\n  async function handleDelete(url: string, id: number) {\r\n    await deleteData(url + \"/\" + id);\r\n    setData(randomBytes(16))\r\n\r\n  }\r\n  async function changeDone(url: string, id: number, item: Item, done: boolean) {\r\n    let newItem = { ...item, done: done };\r\n    await putData(url + \"/\" + id, newItem)\r\n    setData(randomBytes(16))\r\n  }\r\n  async function handlePost(url: string, data: Item) {\r\n    await postData(url, data);\r\n    setData(randomBytes(16))\r\n  }\r\n\r\n  return (\r\n\r\n    <div className=\"bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg\">\r\n      <div className=\"bg-red-100 rounded-t-xl\">\r\n        <Title>ToDo Zoznam</Title>\r\n      </div>\r\n      <div className=\"bg-white flex flex-row text-gray-400  items-center\">\r\n        <ToggleButtonGroup\r\n          value={filter}\r\n          exclusive\r\n          onChange={handleFilter}\r\n          color=\"primary\"\r\n          aria-label=\"filter items\"\r\n        >\r\n          <ToggleButton value={-1}>All</ToggleButton>\r\n          <ToggleButton value={1}>Done</ToggleButton>\r\n          <ToggleButton value={0}>not Done</ToggleButton>\r\n        </ToggleButtonGroup>\r\n        <div className=\"flex-1 p-2 w-full\">\r\n          <Input\r\n            type=\"search\"\r\n            placeholder=\"Search\"\r\n            value={input}\r\n            onChange={(event) => setInput(event.target.value)}\r\n          />\r\n        </div>\r\n      </div>\r\n      <div className=\"bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll\">\r\n        {loading && <p>Loading data ...</p>}\r\n        {renderedItems()}\r\n        <p>Add new ToDo</p>\r\n      </div>\r\n      <div>\r\n        <NewItemForm url={itemUrl} formFun={handlePost} />\r\n      </div>\r\n    </div >\r\n  );\r\n}\r\n// state handlers\r\n//TODO could be inproved using Redux\r\n\r\n\r\nexport default List;", "\r\n\r\nimport React from \"react\";\r\nimport styled from \"styled-components\";\r\nimport List from \"./components/List\";\r\n\r\nconst Header = styled.header`\r\nbackground-image: linear-gradient(\r\n  to bottom right,\r\n  rgb(206, 104, 104),\r\n  rgb(243, 243, 116)\r\n);\r\nmin-height: 100vh;\r\ndisplay: flex;\r\nflex-direction: column;\r\nalign-items: center;\r\njustify-content: center;\r\nfont-size: calc(10px + 2vmin);\r\ncolor: white;\r\n`;\r\n\r\nconst App: React.FC = () => {\r\n\r\n\r\n  return (\r\n    <div className=\"App\">\r\n      <Header>\r\n        <List />\r\n      </Header>\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default App;\r\n", "import { ReportHandler } from 'web-vitals'\r\n\r\nconst reportWebVitals = (onPerfEntry?: ReportHandler) => {\r\n  if (onPerfEntry && onPerfEntry instanceof Function) {\r\n    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {\r\n      getCLS(onPerfEntry)\r\n      getFID(onPerfEntry)\r\n      getFCP(onPerfEntry)\r\n      getLCP(onPerfEntry)\r\n      getTTFB(onPerfEntry)\r\n    })\r\n  }\r\n}\r\n\r\nexport default reportWebVitals\r\n", "import React from \"react\";\nimport ReactDOM from \"react-dom\";\nimport \"./index.css\";\nimport App from \"./App\";\nimport reportWebVitals from \"./reportWebVitals\";\n\nReactDOM.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>,\n  document.getElementById(\"root\")\n);\n\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\nreportWebVitals();\n"],
       sourceRoot: ""
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "add9ce15819afe392971e934ab64a0e99ca8a15e"
+    hash: "39278b4025cdf572e45d258ac7d91ebd8c969db6"
   };
   var coverage = global[gcv] || (global[gcv] = {});
   if (!coverage[path] || coverage[path].hash !== hash) {
@@ -4264,67 +4298,67 @@ function cov_97mgdr26a() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_97mgdr26a = function () {
+    cov_mem31pbvz = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
-cov_97mgdr26a();
-cov_97mgdr26a().s[0]++;
-(this.webpackJsonptodo_list = (cov_97mgdr26a().b[0][0]++, this.webpackJsonptodo_list) || (cov_97mgdr26a().b[0][1]++, [])).push([[0], {
+cov_mem31pbvz();
+cov_mem31pbvz().s[0]++;
+(this.webpackJsonptodo_list = (cov_mem31pbvz().b[0][0]++, this.webpackJsonptodo_list) || (cov_mem31pbvz().b[0][1]++, [])).push([[0], {
   191: function (e, t, n) {
-    cov_97mgdr26a().f[0]++;
+    cov_mem31pbvz().f[0]++;
   },
   220: function (e, t) {
-    cov_97mgdr26a().f[1]++;
+    cov_mem31pbvz().f[1]++;
   },
   222: function (e, t) {
-    cov_97mgdr26a().f[2]++;
+    cov_mem31pbvz().f[2]++;
   },
   233: function (e, t) {
-    cov_97mgdr26a().f[3]++;
+    cov_mem31pbvz().f[3]++;
   },
   235: function (e, t) {
-    cov_97mgdr26a().f[4]++;
+    cov_mem31pbvz().f[4]++;
   },
   262: function (e, t) {
-    cov_97mgdr26a().f[5]++;
+    cov_mem31pbvz().f[5]++;
   },
   264: function (e, t) {
-    cov_97mgdr26a().f[6]++;
+    cov_mem31pbvz().f[6]++;
   },
   265: function (e, t) {
-    cov_97mgdr26a().f[7]++;
+    cov_mem31pbvz().f[7]++;
   },
   270: function (e, t) {
-    cov_97mgdr26a().f[8]++;
+    cov_mem31pbvz().f[8]++;
   },
   272: function (e, t) {
-    cov_97mgdr26a().f[9]++;
+    cov_mem31pbvz().f[9]++;
   },
   278: function (e, t) {
-    cov_97mgdr26a().f[10]++;
+    cov_mem31pbvz().f[10]++;
   },
   280: function (e, t) {
-    cov_97mgdr26a().f[11]++;
+    cov_mem31pbvz().f[11]++;
   },
   299: function (e, t) {
-    cov_97mgdr26a().f[12]++;
+    cov_mem31pbvz().f[12]++;
   },
   311: function (e, t) {
-    cov_97mgdr26a().f[13]++;
+    cov_mem31pbvz().f[13]++;
   },
   314: function (e, t) {
-    cov_97mgdr26a().f[14]++;
+    cov_mem31pbvz().f[14]++;
   },
   338: function (e, t, n) {
     "use strict";
 
-    cov_97mgdr26a().f[15]++;
-    cov_97mgdr26a().s[1]++;
+    cov_mem31pbvz().f[15]++;
+    cov_mem31pbvz().s[1]++;
     n.r(t);
-    cov_97mgdr26a().s[29]++;
+    cov_mem31pbvz().s[29]++;
     var c,
       o,
       a,
@@ -4332,46 +4366,46 @@ cov_97mgdr26a().s[0]++;
       i,
       l,
       s,
-      d = (cov_97mgdr26a().s[2]++, n(0)),
-      u = (cov_97mgdr26a().s[3]++, n.n(d)),
-      b = (cov_97mgdr26a().s[4]++, n(174)),
-      j = (cov_97mgdr26a().s[5]++, n.n(b)),
-      f = (cov_97mgdr26a().s[6]++, (n(191), n(18))),
-      h = (cov_97mgdr26a().s[7]++, n(34)),
-      x = (cov_97mgdr26a().s[8]++, n(35)),
-      O = (cov_97mgdr26a().s[9]++, n(8)),
-      g = (cov_97mgdr26a().s[10]++, n.n(O)),
-      m = (cov_97mgdr26a().s[11]++, n(23)),
-      p = (cov_97mgdr26a().s[12]++, n(9)),
-      v = (cov_97mgdr26a().s[13]++, n(361)),
-      w = (cov_97mgdr26a().s[14]++, n(363)),
-      k = (cov_97mgdr26a().s[15]++, n(358)),
-      y = (cov_97mgdr26a().s[16]++, n(360)),
-      D = (cov_97mgdr26a().s[17]++, n(362)),
-      N = (cov_97mgdr26a().s[18]++, n(11)),
-      C = (cov_97mgdr26a().s[19]++, n(2)),
-      B = (cov_97mgdr26a().s[20]++, Object(N.a)(y.a)((cov_97mgdr26a().b[1][0]++, c) || (cov_97mgdr26a().b[1][1]++, c = Object(f.a)(["\n  color: #c70000;\n  background-color:#e38f8f ;\n  "])))),
-      S = (cov_97mgdr26a().s[21]++, h.a.h2((cov_97mgdr26a().b[2][0]++, o) || (cov_97mgdr26a().b[2][1]++, o = Object(f.a)(["\n    text-align: left;\n    color: #d44d2f;\n    font-weight: 700;\n    font-size:1.2rem\n  "])))),
-      T = (cov_97mgdr26a().s[22]++, h.a.p((cov_97mgdr26a().b[3][0]++, a) || (cov_97mgdr26a().b[3][1]++, a = Object(f.a)(["\n    text-align: left;\n    font-size: 1rem;\n    color: #8a8a8a;\n  "])))),
-      E = (cov_97mgdr26a().s[23]++, Object(N.a)(y.a)((cov_97mgdr26a().b[4][0]++, r) || (cov_97mgdr26a().b[4][1]++, r = Object(f.a)(["\n  background-color: lightgreen;\n  "])))),
-      F = (cov_97mgdr26a().s[24]++, Object(N.a)(y.a)((cov_97mgdr26a().b[5][0]++, i) || (cov_97mgdr26a().b[5][1]++, i = Object(f.a)(["\n  background-color: lightblue;\n  "])))),
-      z = (cov_97mgdr26a().s[25]++, h.a.div((cov_97mgdr26a().b[6][0]++, l) || (cov_97mgdr26a().b[6][1]++, l = Object(f.a)(["\n  width:100%;\n  display:flex;\n  background-color: ", ";\n  border-top-left-radius: 0.375rem;\n  border-bottom-left-radius  0.375rem;\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n  margin:0;\n"])), function (e) {
-        cov_97mgdr26a().f[16]++;
-        cov_97mgdr26a().s[26]++;
-        return !0 === e.isDone ? (cov_97mgdr26a().b[7][0]++, "#f1dbff") : (cov_97mgdr26a().b[7][1]++, "white");
+      d = (cov_mem31pbvz().s[2]++, n(0)),
+      u = (cov_mem31pbvz().s[3]++, n.n(d)),
+      b = (cov_mem31pbvz().s[4]++, n(174)),
+      j = (cov_mem31pbvz().s[5]++, n.n(b)),
+      f = (cov_mem31pbvz().s[6]++, (n(191), n(18))),
+      h = (cov_mem31pbvz().s[7]++, n(34)),
+      O = (cov_mem31pbvz().s[8]++, n(35)),
+      x = (cov_mem31pbvz().s[9]++, n(8)),
+      g = (cov_mem31pbvz().s[10]++, n.n(x)),
+      m = (cov_mem31pbvz().s[11]++, n(23)),
+      p = (cov_mem31pbvz().s[12]++, n(9)),
+      v = (cov_mem31pbvz().s[13]++, n(361)),
+      w = (cov_mem31pbvz().s[14]++, n(363)),
+      k = (cov_mem31pbvz().s[15]++, n(358)),
+      y = (cov_mem31pbvz().s[16]++, n(360)),
+      D = (cov_mem31pbvz().s[17]++, n(362)),
+      N = (cov_mem31pbvz().s[18]++, n(11)),
+      C = (cov_mem31pbvz().s[19]++, n(2)),
+      B = (cov_mem31pbvz().s[20]++, Object(N.a)(y.a)((cov_mem31pbvz().b[1][0]++, c) || (cov_mem31pbvz().b[1][1]++, c = Object(f.a)(["\n  color: #c70000;\n  background-color:#e38f8f ;\n  "])))),
+      T = (cov_mem31pbvz().s[21]++, h.a.h2((cov_mem31pbvz().b[2][0]++, o) || (cov_mem31pbvz().b[2][1]++, o = Object(f.a)(["\n    text-align: left;\n    color: #d44d2f;\n    font-weight: 700;\n    font-size:1.2rem\n  "])))),
+      S = (cov_mem31pbvz().s[22]++, h.a.p((cov_mem31pbvz().b[3][0]++, a) || (cov_mem31pbvz().b[3][1]++, a = Object(f.a)(["\n    text-align: left;\n    font-size: 1rem;\n    color: #8a8a8a;\n  "])))),
+      E = (cov_mem31pbvz().s[23]++, Object(N.a)(y.a)((cov_mem31pbvz().b[4][0]++, r) || (cov_mem31pbvz().b[4][1]++, r = Object(f.a)(["\n  background-color: lightgreen;\n  "])))),
+      F = (cov_mem31pbvz().s[24]++, Object(N.a)(y.a)((cov_mem31pbvz().b[5][0]++, i) || (cov_mem31pbvz().b[5][1]++, i = Object(f.a)(["\n  background-color: lightblue;\n  "])))),
+      z = (cov_mem31pbvz().s[25]++, h.a.div((cov_mem31pbvz().b[6][0]++, l) || (cov_mem31pbvz().b[6][1]++, l = Object(f.a)(["\n  width:100%;\n  display:flex;\n  background-color: ", ";\n  border-top-left-radius: 0.375rem;\n  border-bottom-left-radius  0.375rem;\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n  margin:0;\n"])), function (e) {
+        cov_mem31pbvz().f[16]++;
+        cov_mem31pbvz().s[26]++;
+        return !0 === e.isDone ? (cov_mem31pbvz().b[7][0]++, "#f1dbff") : (cov_mem31pbvz().b[7][1]++, "white");
       })),
-      A = (cov_97mgdr26a().s[27]++, h.a.p((cov_97mgdr26a().b[8][0]++, s) || (cov_97mgdr26a().b[8][1]++, s = Object(f.a)(["\ncolor: ", ";\nwidth: 50 %;\ntext-align: right;\nfont-size: 0.9rem;\n"])), function (e) {
-        cov_97mgdr26a().f[17]++;
-        cov_97mgdr26a().s[28]++;
-        return e.diffinH < 48 ? (cov_97mgdr26a().b[9][0]++, "rgb(150," + 5.3125 * e.diffinH + ",0)") : (cov_97mgdr26a().b[9][1]++, "green");
+      A = (cov_mem31pbvz().s[27]++, h.a.p((cov_mem31pbvz().b[8][0]++, s) || (cov_mem31pbvz().b[8][1]++, s = Object(f.a)(["\ncolor: ", ";\nwidth: 50 %;\ntext-align: right;\nfont-size: 0.9rem;\n"])), function (e) {
+        cov_mem31pbvz().f[17]++;
+        cov_mem31pbvz().s[28]++;
+        return e.diffinH < 48 ? (cov_mem31pbvz().b[9][0]++, "rgb(150," + 5.3125 * e.diffinH + ",0)") : (cov_mem31pbvz().b[9][1]++, "green");
       })),
       L = function (e) {
-        cov_97mgdr26a().f[18]++;
-        var t = (cov_97mgdr26a().s[30]++, new Date()),
-          n = (cov_97mgdr26a().s[31]++, new Date(e.date).getTime() - t.getTime()),
-          c = (cov_97mgdr26a().s[32]++, Math.floor(n / 864e5)),
-          o = (cov_97mgdr26a().s[33]++, Math.round(n / 36e5));
-        cov_97mgdr26a().s[34]++;
+        cov_mem31pbvz().f[18]++;
+        var t = (cov_mem31pbvz().s[30]++, new Date()),
+          n = (cov_mem31pbvz().s[31]++, new Date(e.date).getTime() - t.getTime()),
+          c = (cov_mem31pbvz().s[32]++, Math.floor(n / 864e5)),
+          o = (cov_mem31pbvz().s[33]++, Math.round(n / 36e5));
+        cov_mem31pbvz().s[34]++;
         return Object(C.jsx)("div", {
           className: "flex bg-white rounded-md my-4 filter drop-shadow-xl",
           children: Object(C.jsxs)(z, {
@@ -4379,13 +4413,13 @@ cov_97mgdr26a().s[0]++;
             children: [Object(C.jsx)("div", {
               className: "w-full flex-row",
               children: Object(C.jsxs)(D.a, {
-                children: [Object(C.jsx)(S, {
+                children: [Object(C.jsx)(T, {
                   children: e.title
-                }), Object(C.jsx)(T, {
+                }), Object(C.jsx)(S, {
                   children: e.note
                 }), Object(C.jsx)(A, {
                   diffinH: o,
-                  children: (cov_97mgdr26a().b[10][0]++, e.date) && (cov_97mgdr26a().b[10][1]++, "".concat(c > 0 ? (cov_97mgdr26a().b[11][0]++, c + "d") : (cov_97mgdr26a().b[11][1]++, " ")) + (o - 24 * c) + "h")
+                  children: (cov_mem31pbvz().b[10][0]++, e.date) && (cov_mem31pbvz().b[10][1]++, "".concat(c > 0 ? (cov_mem31pbvz().b[11][0]++, c + "d") : (cov_mem31pbvz().b[11][1]++, " ")) + (o - 24 * c) + "h")
                 })]
               })
             }), Object(C.jsxs)("div", {
@@ -4393,10 +4427,10 @@ cov_97mgdr26a().s[0]++;
               children: [Object(C.jsx)(B, {
                 onClick: e.onDelButtonClick,
                 children: "X"
-              }), e.done ? (cov_97mgdr26a().b[12][0]++, Object(C.jsx)(F, {
+              }), e.done ? (cov_mem31pbvz().b[12][0]++, Object(C.jsx)(F, {
                 onClick: e.onBackButtonClick,
                 children: ">"
-              })) : (cov_97mgdr26a().b[12][1]++, Object(C.jsx)(E, {
+              })) : (cov_mem31pbvz().b[12][1]++, Object(C.jsx)(E, {
                 onClick: e.onDoneButtonClick,
                 children: "O"
               }))]
@@ -4404,67 +4438,67 @@ cov_97mgdr26a().s[0]++;
           })
         });
       },
-      R = (cov_97mgdr26a().s[35]++, n(62)),
-      H = (cov_97mgdr26a().s[36]++, n.n(R));
+      R = (cov_mem31pbvz().s[35]++, n(62)),
+      H = (cov_mem31pbvz().s[36]++, n.n(R));
     function I(e, t) {
-      cov_97mgdr26a().f[19]++;
-      cov_97mgdr26a().s[37]++;
+      cov_mem31pbvz().f[19]++;
+      cov_mem31pbvz().s[37]++;
       return H.a.post(e, t).then(function () {
-        cov_97mgdr26a().f[20]++;
-        cov_97mgdr26a().s[38]++;
+        cov_mem31pbvz().f[20]++;
+        cov_mem31pbvz().s[38]++;
         console.log("new ToDo item created");
       });
     }
     function M(e, t) {
-      cov_97mgdr26a().f[21]++;
-      cov_97mgdr26a().s[39]++;
+      cov_mem31pbvz().f[21]++;
+      cov_mem31pbvz().s[39]++;
       return H.a.put(e, t).then(function () {
-        cov_97mgdr26a().f[22]++;
-        cov_97mgdr26a().s[40]++;
-        console.log(" to DONE");
+        cov_mem31pbvz().f[22]++;
+        cov_mem31pbvz().s[40]++;
+        console.log("ToDo item changed" + (t.done ? (cov_mem31pbvz().b[13][0]++, " to DONE") : (cov_mem31pbvz().b[13][1]++, " to not DONE")));
       });
     }
     function q(e) {
-      cov_97mgdr26a().f[23]++;
-      cov_97mgdr26a().s[41]++;
+      cov_mem31pbvz().f[23]++;
+      cov_mem31pbvz().s[41]++;
       return H.a.delete(e, {
         method: "DELETE"
       }).then(function () {
-        cov_97mgdr26a().f[24]++;
-        cov_97mgdr26a().s[42]++;
+        cov_mem31pbvz().f[24]++;
+        cov_mem31pbvz().s[42]++;
         console.log("ToDo item deleted");
       }).catch(function (e) {
-        cov_97mgdr26a().f[25]++;
-        cov_97mgdr26a().s[43]++;
+        cov_mem31pbvz().f[25]++;
+        cov_mem31pbvz().s[43]++;
         console.log(e.message);
       });
     }
-    var J = (cov_97mgdr26a().s[44]++, n(63)),
-      P = (cov_97mgdr26a().s[45]++, n(356)),
-      _ = (cov_97mgdr26a().s[46]++, n(37)),
-      U = (cov_97mgdr26a().s[47]++, n.n(_)),
-      V = (cov_97mgdr26a().s[48]++, n(180));
-    cov_97mgdr26a().s[49]++;
-    cov_97mgdr26a().s[66]++;
-    cov_97mgdr26a().s[140]++;
-    cov_97mgdr26a().s[142]++;
+    var J = (cov_mem31pbvz().s[44]++, n(63)),
+      P = (cov_mem31pbvz().s[45]++, n(356)),
+      _ = (cov_mem31pbvz().s[46]++, n(37)),
+      U = (cov_mem31pbvz().s[47]++, n.n(_)),
+      V = (cov_mem31pbvz().s[48]++, n(180));
+    cov_mem31pbvz().s[49]++;
+    cov_mem31pbvz().s[66]++;
+    cov_mem31pbvz().s[140]++;
+    cov_mem31pbvz().s[142]++;
     var W,
       X,
       Z = function (e) {
-        cov_97mgdr26a().f[26]++;
-        var t = (cov_97mgdr26a().s[50]++, Object(V.a)()),
-          n = (cov_97mgdr26a().s[51]++, t.register),
-          c = (cov_97mgdr26a().s[52]++, t.handleSubmit),
-          o = (cov_97mgdr26a().s[53]++, t.reset),
-          a = (cov_97mgdr26a().s[54]++, Object(d.useState)([{}])),
-          r = (cov_97mgdr26a().s[55]++, Object(p.a)(a, 2)),
-          i = (cov_97mgdr26a().s[56]++, r[0]),
-          l = (cov_97mgdr26a().s[57]++, r[1]);
-        cov_97mgdr26a().s[58]++;
+        cov_mem31pbvz().f[26]++;
+        var t = (cov_mem31pbvz().s[50]++, Object(V.a)()),
+          n = (cov_mem31pbvz().s[51]++, t.register),
+          c = (cov_mem31pbvz().s[52]++, t.handleSubmit),
+          o = (cov_mem31pbvz().s[53]++, t.reset),
+          a = (cov_mem31pbvz().s[54]++, Object(d.useState)([{}])),
+          r = (cov_mem31pbvz().s[55]++, Object(p.a)(a, 2)),
+          i = (cov_mem31pbvz().s[56]++, r[0]),
+          l = (cov_mem31pbvz().s[57]++, r[1]);
+        cov_mem31pbvz().s[58]++;
         return Object(C.jsxs)(C.Fragment, {
-          children: [(cov_97mgdr26a().b[13][0]++, i) && (cov_97mgdr26a().b[13][1]++, i.map(function (e, t) {
-            cov_97mgdr26a().f[27]++;
-            cov_97mgdr26a().s[59]++;
+          children: [(cov_mem31pbvz().b[14][0]++, i) && (cov_mem31pbvz().b[14][1]++, i.map(function (e, t) {
+            cov_mem31pbvz().f[27]++;
+            cov_mem31pbvz().s[59]++;
             return Object(C.jsxs)("p", {
               className: "text-red-500",
               children: [" ", e.message]
@@ -4472,12 +4506,12 @@ cov_97mgdr26a().s[0]++;
           })), Object(C.jsxs)("form", {
             className: "flex text-black rounded-b-xl m-2 flex-col bg-gray-300",
             onSubmit: c(function (t) {
-              cov_97mgdr26a().f[28]++;
-              cov_97mgdr26a().s[60]++;
+              cov_mem31pbvz().f[28]++;
+              cov_mem31pbvz().s[60]++;
               t.done = !1;
-              var n = (cov_97mgdr26a().s[61]++, function (e) {
-                cov_97mgdr26a().f[29]++;
-                var t = (cov_97mgdr26a().s[62]++, U.a.object({
+              var n = (cov_mem31pbvz().s[61]++, function (e) {
+                cov_mem31pbvz().f[29]++;
+                var t = (cov_mem31pbvz().s[62]++, U.a.object({
                   title: U.a.string().required().max(25),
                   note: U.a.string().allow("").max(100).optional(),
                   date: U.a.alternatives().conditional("date", {
@@ -4489,18 +4523,18 @@ cov_97mgdr26a().s[0]++;
                 }).options({
                   abortEarly: !1
                 }));
-                cov_97mgdr26a().s[63]++;
+                cov_mem31pbvz().s[63]++;
                 return console.log(t.validate(e)), t.validate(e);
               }(t));
-              cov_97mgdr26a().s[64]++;
-              n.error ? (cov_97mgdr26a().b[14][0]++, (console.log(n.error.details), l(n.error.details))) : (cov_97mgdr26a().b[14][1]++, (console.log("Data Validated"), l([{}]), e.formFun(e.url, t), o()));
+              cov_mem31pbvz().s[64]++;
+              n.error ? (cov_mem31pbvz().b[15][0]++, (console.log(n.error.details), l(n.error.details))) : (cov_mem31pbvz().b[15][1]++, (console.log("Data Validated"), l([{}]), e.formFun(e.url, t), o()));
             }),
-            children: [Object(C.jsx)(k.a, Object(x.a)(Object(x.a)({}, n("title", {
+            children: [Object(C.jsx)(k.a, Object(O.a)(Object(O.a)({}, n("title", {
               required: !0
             })), {}, {
               type: "text",
               placeholder: "Title"
-            })), Object(C.jsx)(P.a, Object(x.a)(Object(x.a)({}, n("note")), {}, {
+            })), Object(C.jsx)(P.a, Object(O.a)(Object(O.a)({}, n("note")), {}, {
               className: "text-base",
               placeholder: "write notes",
               maxRows: 3
@@ -4509,7 +4543,7 @@ cov_97mgdr26a().s[0]++;
               children: [Object(C.jsx)("label", {
                 className: "text-base pr-4 text-gray-500",
                 children: "Deadline: "
-              }), Object(C.jsx)(k.a, Object(x.a)({
+              }), Object(C.jsx)(k.a, Object(O.a)({
                 type: "datetime-local"
               }, n("date")))]
             }), Object(C.jsx)(k.a, {
@@ -4521,44 +4555,44 @@ cov_97mgdr26a().s[0]++;
           })]
         });
       },
-      G = (cov_97mgdr26a().s[65]++, h.a.h1((cov_97mgdr26a().b[15][0]++, W) || (cov_97mgdr26a().b[15][1]++, W = Object(f.a)(["\nfont-size: 1.2em;\ntext-align: center;\ncolor: palevioletred;\nfont-weight: 900;\n"])))),
+      G = (cov_mem31pbvz().s[65]++, h.a.h1((cov_mem31pbvz().b[16][0]++, W) || (cov_mem31pbvz().b[16][1]++, W = Object(f.a)(["\nfont-size: 1.2em;\ntext-align: center;\ncolor: palevioletred;\nfont-weight: 900;\n"])))),
       K = function () {
-        cov_97mgdr26a().f[30]++;
-        cov_97mgdr26a().s[95]++;
-        var e = (cov_97mgdr26a().s[67]++, Object(d.useState)(Object(J.randomBytes)(16))),
-          t = (cov_97mgdr26a().s[68]++, Object(p.a)(e, 2)),
-          n = (cov_97mgdr26a().s[69]++, t[0]),
-          c = (cov_97mgdr26a().s[70]++, t[1]),
-          o = (cov_97mgdr26a().s[71]++, Object(d.useState)(-1)),
-          a = (cov_97mgdr26a().s[72]++, Object(p.a)(o, 2)),
-          r = (cov_97mgdr26a().s[73]++, a[0]),
-          i = (cov_97mgdr26a().s[74]++, a[1]),
-          l = (cov_97mgdr26a().s[75]++, Object(d.useState)("")),
-          s = (cov_97mgdr26a().s[76]++, Object(p.a)(l, 2)),
-          u = (cov_97mgdr26a().s[77]++, s[0]),
-          b = (cov_97mgdr26a().s[78]++, s[1]),
-          j = (cov_97mgdr26a().s[79]++, "https://61ae505ba7c7f3001786f792.mockapi.io/items"),
-          f = (cov_97mgdr26a().s[80]++, function (e, t) {
-            cov_97mgdr26a().f[31]++;
-            var n = (cov_97mgdr26a().s[81]++, Object(d.useState)([{}])),
-              c = (cov_97mgdr26a().s[82]++, Object(p.a)(n, 2)),
-              o = (cov_97mgdr26a().s[83]++, c[0]),
-              a = (cov_97mgdr26a().s[84]++, c[1]),
-              r = (cov_97mgdr26a().s[85]++, Object(d.useState)(!0)),
-              i = (cov_97mgdr26a().s[86]++, Object(p.a)(r, 2)),
-              l = (cov_97mgdr26a().s[87]++, i[0]),
-              s = (cov_97mgdr26a().s[88]++, i[1]);
-            cov_97mgdr26a().s[89]++;
+        cov_mem31pbvz().f[30]++;
+        cov_mem31pbvz().s[95]++;
+        var e = (cov_mem31pbvz().s[67]++, Object(d.useState)(Object(J.randomBytes)(16))),
+          t = (cov_mem31pbvz().s[68]++, Object(p.a)(e, 2)),
+          n = (cov_mem31pbvz().s[69]++, t[0]),
+          c = (cov_mem31pbvz().s[70]++, t[1]),
+          o = (cov_mem31pbvz().s[71]++, Object(d.useState)(-1)),
+          a = (cov_mem31pbvz().s[72]++, Object(p.a)(o, 2)),
+          r = (cov_mem31pbvz().s[73]++, a[0]),
+          i = (cov_mem31pbvz().s[74]++, a[1]),
+          l = (cov_mem31pbvz().s[75]++, Object(d.useState)("")),
+          s = (cov_mem31pbvz().s[76]++, Object(p.a)(l, 2)),
+          u = (cov_mem31pbvz().s[77]++, s[0]),
+          b = (cov_mem31pbvz().s[78]++, s[1]),
+          j = (cov_mem31pbvz().s[79]++, "https://61ae505ba7c7f3001786f792.mockapi.io/items"),
+          f = (cov_mem31pbvz().s[80]++, function (e, t) {
+            cov_mem31pbvz().f[31]++;
+            var n = (cov_mem31pbvz().s[81]++, Object(d.useState)([{}])),
+              c = (cov_mem31pbvz().s[82]++, Object(p.a)(n, 2)),
+              o = (cov_mem31pbvz().s[83]++, c[0]),
+              a = (cov_mem31pbvz().s[84]++, c[1]),
+              r = (cov_mem31pbvz().s[85]++, Object(d.useState)(!0)),
+              i = (cov_mem31pbvz().s[86]++, Object(p.a)(r, 2)),
+              l = (cov_mem31pbvz().s[87]++, i[0]),
+              s = (cov_mem31pbvz().s[88]++, i[1]);
+            cov_mem31pbvz().s[89]++;
             return Object(d.useEffect)(function () {
-              cov_97mgdr26a().f[32]++;
-              cov_97mgdr26a().s[90]++;
+              cov_mem31pbvz().f[32]++;
+              cov_mem31pbvz().s[90]++;
               H.a.get(e).then(function (e) {
-                cov_97mgdr26a().f[33]++;
-                cov_97mgdr26a().s[91]++;
+                cov_mem31pbvz().f[33]++;
+                cov_mem31pbvz().s[91]++;
                 a(e.data), s(!1);
               }).catch(function (e) {
-                cov_97mgdr26a().f[34]++;
-                cov_97mgdr26a().s[92]++;
+                cov_mem31pbvz().f[34]++;
+                cov_mem31pbvz().s[92]++;
                 s(!1), console.log("ERROR" + e.message);
               });
             }, [e, t]), {
@@ -4566,11 +4600,11 @@ cov_97mgdr26a().s[0]++;
               loading: l
             };
           }(j, n)),
-          h = (cov_97mgdr26a().s[93]++, f.data),
-          O = (cov_97mgdr26a().s[94]++, f.loading),
+          h = (cov_mem31pbvz().s[93]++, f.data),
+          x = (cov_mem31pbvz().s[94]++, f.loading),
           y = function (e) {
-            cov_97mgdr26a().f[35]++;
-            cov_97mgdr26a().s[96]++;
+            cov_mem31pbvz().f[35]++;
+            cov_mem31pbvz().s[96]++;
             return Object(C.jsx)(L, {
               title: e.title,
               note: e.note,
@@ -4578,51 +4612,51 @@ cov_97mgdr26a().s[0]++;
               done: e.done,
               id: e.id,
               onDelButtonClick: function () {
-                cov_97mgdr26a().f[36]++;
-                cov_97mgdr26a().s[97]++;
+                cov_mem31pbvz().f[36]++;
+                cov_mem31pbvz().s[97]++;
                 return function (e, t) {
-                  cov_97mgdr26a().f[37]++;
-                  cov_97mgdr26a().s[98]++;
+                  cov_mem31pbvz().f[37]++;
+                  cov_mem31pbvz().s[98]++;
                   return D.apply(this, arguments);
                 }(j, e.id);
               },
               onBackButtonClick: function () {
-                cov_97mgdr26a().f[38]++;
-                cov_97mgdr26a().s[99]++;
+                cov_mem31pbvz().f[38]++;
+                cov_mem31pbvz().s[99]++;
                 return N(j, e.id, e, !1);
               },
               onDoneButtonClick: function () {
-                cov_97mgdr26a().f[39]++;
-                cov_97mgdr26a().s[100]++;
+                cov_mem31pbvz().f[39]++;
+                cov_mem31pbvz().s[100]++;
                 return N(j, e.id, e, !0);
               }
             }, "item-".concat(e.id));
           };
         function D() {
-          cov_97mgdr26a().f[40]++;
-          cov_97mgdr26a().s[101]++;
+          cov_mem31pbvz().f[40]++;
+          cov_mem31pbvz().s[101]++;
           return (D = Object(m.a)(g.a.mark(function e(t, n) {
-            cov_97mgdr26a().f[41]++;
-            cov_97mgdr26a().s[102]++;
+            cov_mem31pbvz().f[41]++;
+            cov_mem31pbvz().s[102]++;
             return g.a.wrap(function (e) {
-              cov_97mgdr26a().f[42]++;
-              cov_97mgdr26a().s[103]++;
+              cov_mem31pbvz().f[42]++;
+              cov_mem31pbvz().s[103]++;
               for (;;) {
-                cov_97mgdr26a().s[104]++;
+                cov_mem31pbvz().s[104]++;
                 switch (e.prev = e.next) {
                   case 0:
-                    cov_97mgdr26a().b[16][0]++;
-                    cov_97mgdr26a().s[105]++;
+                    cov_mem31pbvz().b[17][0]++;
+                    cov_mem31pbvz().s[105]++;
                     return e.next = 2, q(t + "/" + n);
                   case 2:
-                    cov_97mgdr26a().b[16][1]++;
-                    cov_97mgdr26a().s[106]++;
+                    cov_mem31pbvz().b[17][1]++;
+                    cov_mem31pbvz().s[106]++;
                     c(Object(J.randomBytes)(16));
                   case 3:
-                    cov_97mgdr26a().b[16][2]++;
+                    cov_mem31pbvz().b[17][2]++;
                   case "end":
-                    cov_97mgdr26a().b[16][3]++;
-                    cov_97mgdr26a().s[107]++;
+                    cov_mem31pbvz().b[17][3]++;
+                    cov_mem31pbvz().s[107]++;
                     return e.stop();
                 }
               }
@@ -4630,76 +4664,76 @@ cov_97mgdr26a().s[0]++;
           }))).apply(this, arguments);
         }
         function N(e, t, n, c) {
-          cov_97mgdr26a().f[43]++;
-          cov_97mgdr26a().s[108]++;
+          cov_mem31pbvz().f[43]++;
+          cov_mem31pbvz().s[108]++;
           return B.apply(this, arguments);
         }
         function B() {
-          cov_97mgdr26a().f[44]++;
-          cov_97mgdr26a().s[109]++;
+          cov_mem31pbvz().f[44]++;
+          cov_mem31pbvz().s[109]++;
           return (B = Object(m.a)(g.a.mark(function e(t, n, o, a) {
-            cov_97mgdr26a().f[45]++;
+            cov_mem31pbvz().f[45]++;
             var r;
-            cov_97mgdr26a().s[110]++;
+            cov_mem31pbvz().s[110]++;
             return g.a.wrap(function (e) {
-              cov_97mgdr26a().f[46]++;
-              cov_97mgdr26a().s[111]++;
+              cov_mem31pbvz().f[46]++;
+              cov_mem31pbvz().s[111]++;
               for (;;) {
-                cov_97mgdr26a().s[112]++;
+                cov_mem31pbvz().s[112]++;
                 switch (e.prev = e.next) {
                   case 0:
-                    cov_97mgdr26a().b[17][0]++;
-                    cov_97mgdr26a().s[113]++;
-                    return r = Object(x.a)(Object(x.a)({}, o), {}, {
+                    cov_mem31pbvz().b[18][0]++;
+                    cov_mem31pbvz().s[113]++;
+                    return r = Object(O.a)(Object(O.a)({}, o), {}, {
                       done: a
                     }), e.next = 3, M(t + "/" + n, r);
                   case 3:
-                    cov_97mgdr26a().b[17][1]++;
-                    cov_97mgdr26a().s[114]++;
+                    cov_mem31pbvz().b[18][1]++;
+                    cov_mem31pbvz().s[114]++;
                     c(Object(J.randomBytes)(16));
                   case 4:
-                    cov_97mgdr26a().b[17][2]++;
+                    cov_mem31pbvz().b[18][2]++;
                   case "end":
-                    cov_97mgdr26a().b[17][3]++;
-                    cov_97mgdr26a().s[115]++;
+                    cov_mem31pbvz().b[18][3]++;
+                    cov_mem31pbvz().s[115]++;
                     return e.stop();
                 }
               }
             }, e);
           }))).apply(this, arguments);
         }
-        function S() {
-          cov_97mgdr26a().f[47]++;
-          cov_97mgdr26a().s[116]++;
-          return (S = Object(m.a)(g.a.mark(function e(t, n) {
-            cov_97mgdr26a().f[48]++;
-            cov_97mgdr26a().s[117]++;
+        function T() {
+          cov_mem31pbvz().f[47]++;
+          cov_mem31pbvz().s[116]++;
+          return (T = Object(m.a)(g.a.mark(function e(t, n) {
+            cov_mem31pbvz().f[48]++;
+            cov_mem31pbvz().s[117]++;
             return g.a.wrap(function (e) {
-              cov_97mgdr26a().f[49]++;
-              cov_97mgdr26a().s[118]++;
+              cov_mem31pbvz().f[49]++;
+              cov_mem31pbvz().s[118]++;
               for (;;) {
-                cov_97mgdr26a().s[119]++;
+                cov_mem31pbvz().s[119]++;
                 switch (e.prev = e.next) {
                   case 0:
-                    cov_97mgdr26a().b[18][0]++;
-                    cov_97mgdr26a().s[120]++;
+                    cov_mem31pbvz().b[19][0]++;
+                    cov_mem31pbvz().s[120]++;
                     return e.next = 2, I(t, n);
                   case 2:
-                    cov_97mgdr26a().b[18][1]++;
-                    cov_97mgdr26a().s[121]++;
+                    cov_mem31pbvz().b[19][1]++;
+                    cov_mem31pbvz().s[121]++;
                     c(Object(J.randomBytes)(16));
                   case 3:
-                    cov_97mgdr26a().b[18][2]++;
+                    cov_mem31pbvz().b[19][2]++;
                   case "end":
-                    cov_97mgdr26a().b[18][3]++;
-                    cov_97mgdr26a().s[122]++;
+                    cov_mem31pbvz().b[19][3]++;
+                    cov_mem31pbvz().s[122]++;
                     return e.stop();
                 }
               }
             }, e);
           }))).apply(this, arguments);
         }
-        cov_97mgdr26a().s[123]++;
+        cov_mem31pbvz().s[123]++;
         return Object(C.jsxs)("div", {
           className: "bg-white object-contain rounded-2xl border-green-400 filter drop-shadow-lg",
           children: [Object(C.jsx)("div", {
@@ -4713,30 +4747,30 @@ cov_97mgdr26a().s[0]++;
               value: r,
               exclusive: !0,
               onChange: function (e, t) {
-                cov_97mgdr26a().f[50]++;
-                cov_97mgdr26a().s[124]++;
+                cov_mem31pbvz().f[50]++;
+                cov_mem31pbvz().s[124]++;
                 switch (i(t), t) {
                   case -1:
-                    cov_97mgdr26a().b[19][0]++;
-                    cov_97mgdr26a().s[125]++;
+                    cov_mem31pbvz().b[20][0]++;
+                    cov_mem31pbvz().s[125]++;
                     console.log("[All] selected");
-                    cov_97mgdr26a().s[126]++;
+                    cov_mem31pbvz().s[126]++;
                     break;
                   case 0:
-                    cov_97mgdr26a().b[19][1]++;
-                    cov_97mgdr26a().s[127]++;
+                    cov_mem31pbvz().b[20][1]++;
+                    cov_mem31pbvz().s[127]++;
                     console.log("[not Done] selected");
-                    cov_97mgdr26a().s[128]++;
+                    cov_mem31pbvz().s[128]++;
                     break;
                   case 1:
-                    cov_97mgdr26a().b[19][2]++;
-                    cov_97mgdr26a().s[129]++;
+                    cov_mem31pbvz().b[20][2]++;
+                    cov_mem31pbvz().s[129]++;
                     console.log("[Done] selected");
-                    cov_97mgdr26a().s[130]++;
+                    cov_mem31pbvz().s[130]++;
                     break;
                   default:
-                    cov_97mgdr26a().b[19][3]++;
-                    cov_97mgdr26a().s[131]++;
+                    cov_mem31pbvz().b[20][3]++;
+                    cov_mem31pbvz().s[131]++;
                     console.log("Wrong selection");
                 }
               },
@@ -4759,37 +4793,37 @@ cov_97mgdr26a().s[0]++;
                 placeholder: "Search",
                 value: u,
                 onChange: function (e) {
-                  cov_97mgdr26a().f[51]++;
-                  cov_97mgdr26a().s[132]++;
+                  cov_mem31pbvz().f[51]++;
+                  cov_mem31pbvz().s[132]++;
                   return b(e.target.value);
                 }
               })
             })]
           }), Object(C.jsxs)("div", {
             className: "bg-blue-200 max-h-custom object-contain px-4 border-green-400 overflow-y-scroll",
-            children: [(cov_97mgdr26a().b[20][0]++, O) && (cov_97mgdr26a().b[20][1]++, Object(C.jsx)("p", {
+            children: [(cov_mem31pbvz().b[21][0]++, x) && (cov_mem31pbvz().b[21][1]++, Object(C.jsx)("p", {
               children: "Loading data ..."
             })), function () {
-              cov_97mgdr26a().f[52]++;
-              cov_97mgdr26a().s[133]++;
+              cov_mem31pbvz().f[52]++;
+              cov_mem31pbvz().s[133]++;
               if (h) {
-                cov_97mgdr26a().b[21][0]++;
-                cov_97mgdr26a().s[134]++;
-                return r >= 0 ? (cov_97mgdr26a().b[22][0]++, h.filter(function (e) {
-                  cov_97mgdr26a().f[53]++;
-                  cov_97mgdr26a().s[135]++;
+                cov_mem31pbvz().b[22][0]++;
+                cov_mem31pbvz().s[134]++;
+                return r >= 0 ? (cov_mem31pbvz().b[23][0]++, h.filter(function (e) {
+                  cov_mem31pbvz().f[53]++;
+                  cov_mem31pbvz().s[135]++;
                   return e.done == r;
                 }).map(function (e) {
-                  cov_97mgdr26a().f[54]++;
-                  cov_97mgdr26a().s[136]++;
-                  return (cov_97mgdr26a().b[24][0]++, "" === u) || (cov_97mgdr26a().b[24][1]++, e.title.includes(u)) ? (cov_97mgdr26a().b[23][0]++, y(e)) : (cov_97mgdr26a().b[23][1]++, void 0);
-                })) : (cov_97mgdr26a().b[22][1]++, h.map(function (e) {
-                  cov_97mgdr26a().f[55]++;
-                  cov_97mgdr26a().s[137]++;
-                  return (cov_97mgdr26a().b[26][0]++, "" === u) || (cov_97mgdr26a().b[26][1]++, e.title.includes(u)) ? (cov_97mgdr26a().b[25][0]++, y(e)) : (cov_97mgdr26a().b[25][1]++, void 0);
+                  cov_mem31pbvz().f[54]++;
+                  cov_mem31pbvz().s[136]++;
+                  return (cov_mem31pbvz().b[25][0]++, "" === u) || (cov_mem31pbvz().b[25][1]++, e.title.includes(u)) ? (cov_mem31pbvz().b[24][0]++, y(e)) : (cov_mem31pbvz().b[24][1]++, void 0);
+                })) : (cov_mem31pbvz().b[23][1]++, h.map(function (e) {
+                  cov_mem31pbvz().f[55]++;
+                  cov_mem31pbvz().s[137]++;
+                  return (cov_mem31pbvz().b[27][0]++, "" === u) || (cov_mem31pbvz().b[27][1]++, e.title.includes(u)) ? (cov_mem31pbvz().b[26][0]++, y(e)) : (cov_mem31pbvz().b[26][1]++, void 0);
                 }));
               } else {
-                cov_97mgdr26a().b[21][1]++;
+                cov_mem31pbvz().b[22][1]++;
               }
             }(), Object(C.jsx)("p", {
               children: "Add new ToDo"
@@ -4798,18 +4832,18 @@ cov_97mgdr26a().s[0]++;
             children: Object(C.jsx)(Z, {
               url: j,
               formFun: function (e, t) {
-                cov_97mgdr26a().f[56]++;
-                cov_97mgdr26a().s[138]++;
-                return S.apply(this, arguments);
+                cov_mem31pbvz().f[56]++;
+                cov_mem31pbvz().s[138]++;
+                return T.apply(this, arguments);
               }
             })
           })]
         });
       },
-      Q = (cov_97mgdr26a().s[139]++, h.a.header((cov_97mgdr26a().b[27][0]++, X) || (cov_97mgdr26a().b[27][1]++, X = Object(f.a)(["\nbackground-image: linear-gradient(\n  to bottom right,\n  rgb(206, 104, 104),\n  rgb(243, 243, 116)\n);\nmin-height: 100vh;\ndisplay: flex;\nflex-direction: column;\nalign-items: center;\njustify-content: center;\nfont-size: calc(10px + 2vmin);\ncolor: white;\n"])))),
+      Q = (cov_mem31pbvz().s[139]++, h.a.header((cov_mem31pbvz().b[28][0]++, X) || (cov_mem31pbvz().b[28][1]++, X = Object(f.a)(["\nbackground-image: linear-gradient(\n  to bottom right,\n  rgb(206, 104, 104),\n  rgb(243, 243, 116)\n);\nmin-height: 100vh;\ndisplay: flex;\nflex-direction: column;\nalign-items: center;\njustify-content: center;\nfont-size: calc(10px + 2vmin);\ncolor: white;\n"])))),
       Y = function () {
-        cov_97mgdr26a().f[57]++;
-        cov_97mgdr26a().s[141]++;
+        cov_mem31pbvz().f[57]++;
+        cov_mem31pbvz().s[141]++;
         return Object(C.jsx)("div", {
           className: "App",
           children: Object(C.jsx)(Q, {
@@ -4818,23 +4852,23 @@ cov_97mgdr26a().s[0]++;
         });
       },
       $ = function (e) {
-        cov_97mgdr26a().f[58]++;
-        cov_97mgdr26a().s[143]++;
-        (cov_97mgdr26a().b[28][0]++, e) && (cov_97mgdr26a().b[28][1]++, e instanceof Function) && (cov_97mgdr26a().b[28][2]++, n.e(3).then(n.bind(null, 364)).then(function (t) {
-          cov_97mgdr26a().f[59]++;
-          var n = (cov_97mgdr26a().s[144]++, t.getCLS),
-            c = (cov_97mgdr26a().s[145]++, t.getFID),
-            o = (cov_97mgdr26a().s[146]++, t.getFCP),
-            a = (cov_97mgdr26a().s[147]++, t.getLCP),
-            r = (cov_97mgdr26a().s[148]++, t.getTTFB);
-          cov_97mgdr26a().s[149]++;
+        cov_mem31pbvz().f[58]++;
+        cov_mem31pbvz().s[143]++;
+        (cov_mem31pbvz().b[29][0]++, e) && (cov_mem31pbvz().b[29][1]++, e instanceof Function) && (cov_mem31pbvz().b[29][2]++, n.e(3).then(n.bind(null, 364)).then(function (t) {
+          cov_mem31pbvz().f[59]++;
+          var n = (cov_mem31pbvz().s[144]++, t.getCLS),
+            c = (cov_mem31pbvz().s[145]++, t.getFID),
+            o = (cov_mem31pbvz().s[146]++, t.getFCP),
+            a = (cov_mem31pbvz().s[147]++, t.getLCP),
+            r = (cov_mem31pbvz().s[148]++, t.getTTFB);
+          cov_mem31pbvz().s[149]++;
           n(e), c(e), o(e), a(e), r(e);
         }));
       };
-    cov_97mgdr26a().s[150]++;
+    cov_mem31pbvz().s[150]++;
     j.a.render(Object(C.jsx)(u.a.StrictMode, {
       children: Object(C.jsx)(Y, {})
     }), document.getElementById("root")), $();
   }
 }, [[338, 1, 2]]]);
-//# sourceMappingURL=main.ef0d3833.chunk.js.map
+//# sourceMappingURL=main.b817af2b.chunk.js.map
